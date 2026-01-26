@@ -1,0 +1,39 @@
+.post-breadcrumbs {
+    background: #f8f9fc;
+    padding: 15px 0;
+    text-align: center;
+    padding-top: 13px;
+    .page-list {
+        @extend %liststyle;
+        li {
+            display: inline-block;
+            position: relative;
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--color-body);
+            a {
+                color: var(--color-body);
+                transition: 0.3s; 
+                &:hover {
+                    color: var(--color-primary);
+                }
+            }
+            &.separator {
+                padding: 0 20px;
+                position: relative;
+                &::before {
+                    content: "";
+                    background: #1f1f25;
+                    opacity: 0.2;
+                    width: 4px;
+                    height: 4px;
+                    border-radius: 100%;
+                    position: absolute;
+                    left: 20px;
+                    top: -5px;
+                }
+            }
+        }
+    }
+}

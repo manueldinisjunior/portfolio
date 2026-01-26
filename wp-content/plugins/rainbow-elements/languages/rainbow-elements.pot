@@ -1,0 +1,2785 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Rainbow Elements\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-17 19:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.1\n"
+"X-Domain: rainbow-elements"
+
+#: elementor/widgets/button.php:34
+msgid " Button"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:261
+msgid " Engineer"
+msgstr ""
+
+#: include/common-functions.php:538
+msgid " link"
+msgstr ""
+
+#: include/common-functions.php:525
+msgid " Link Type"
+msgstr ""
+
+#: include/custom-post-type-base.php:143
+msgid " list"
+msgstr ""
+
+#: include/custom-post-type-base.php:144
+msgid " list navigation"
+msgstr ""
+
+#: elementor/widgets/button.php:333
+msgid " Margin"
+msgstr ""
+
+#: include/custom-post-type-base.php:131
+msgid " Name"
+msgstr ""
+
+#: include/common-functions.php:559
+msgid " Page"
+msgstr ""
+
+#: include/common-functions.php:515
+msgid " Text"
+msgstr ""
+
+#. URI of the plugin
+msgid "#"
+msgstr ""
+
+#: include/common-functions.php:239
+#, php-format
+msgid "%s Query"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:166
+msgid "+01234567890"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:276 elementor/widgets/about-me2.php:277
+msgid "+880123456789"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:130
+#: elementor/widgets/banner-slider.php:134
+msgid "- Try Newest"
+msgstr ""
+
+#: elementor/widgets/info-box.php:86 elementor/widgets/poster-banner.php:111
+msgid "- Welcome to inbio"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:264
+#: elementor/widgets/portfolio-grid.php:278
+#: elementor/widgets/portfolio-grid.php:292 elementor/widgets/team.php:158
+#: elementor/widgets/team.php:173 elementor/widgets/team.php:188
+msgid "1 Col"
+msgstr ""
+
+#: include/common-functions.php:790 include/common-functions.php:810
+#: include/common-functions.php:830 include/common-functions.php:850
+msgid "1 Columns"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:181
+#: elementor/widgets/pricing-table.php:238
+msgid "1 Page with Elementor"
+msgstr ""
+
+#: include/common-functions.php:796 include/common-functions.php:816
+#: include/common-functions.php:836 include/common-functions.php:856
+msgid "12 Columns"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:265
+#: elementor/widgets/portfolio-grid.php:279
+#: elementor/widgets/portfolio-grid.php:293 elementor/widgets/team.php:159
+#: elementor/widgets/team.php:174 elementor/widgets/team.php:189
+msgid "2 Col"
+msgstr ""
+
+#: include/common-functions.php:791 include/common-functions.php:811
+#: include/common-functions.php:831 include/common-functions.php:851
+msgid "2 Columns"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:336
+msgid "2 Days Delivery"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:253
+msgid "2 Plugins/Extensions"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:257
+msgid "20 August"
+msgstr ""
+
+#: elementor/widgets/experience.php:87
+msgid "2015-Present"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:266
+#: elementor/widgets/portfolio-grid.php:280
+#: elementor/widgets/portfolio-grid.php:294 elementor/widgets/team.php:160
+#: elementor/widgets/team.php:175 elementor/widgets/team.php:190
+msgid "3 Col"
+msgstr ""
+
+#: include/common-functions.php:792 include/common-functions.php:812
+#: include/common-functions.php:832 include/common-functions.php:852
+msgid "3 Columns"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:267
+#: elementor/widgets/portfolio-grid.php:281
+#: elementor/widgets/portfolio-grid.php:295 elementor/widgets/team.php:161
+#: elementor/widgets/team.php:176 elementor/widgets/team.php:191
+msgid "4 Col"
+msgstr ""
+
+#: include/common-functions.php:793 include/common-functions.php:813
+#: include/common-functions.php:833 include/common-functions.php:853
+msgid "4 Columns"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:113
+msgid "4.30/5"
+msgstr ""
+
+#: include/common-functions.php:794 include/common-functions.php:814
+#: include/common-functions.php:834 include/common-functions.php:854
+msgid "5 Columns (col-5)"
+msgstr ""
+
+#: elementor/widgets/team.php:162 elementor/widgets/team.php:177
+#: elementor/widgets/team.php:192
+msgid "6 Col"
+msgstr ""
+
+#: include/common-functions.php:795 include/common-functions.php:815
+#: include/common-functions.php:835 include/common-functions.php:855
+msgid "6 Columns"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:312
+msgid "8 Plugins/Extensions"
+msgstr ""
+
+#: elementor/widgets/progress.php:100
+msgid "95."
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:253
+msgid "@alamin"
+msgstr ""
+
+#: elementor/widgets/about-me.php:115 elementor/widgets/about-me.php:116
+msgid "a"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:141
+msgid "About"
+msgstr ""
+
+#: elementor/widgets/about-me.php:58 elementor/widgets/about-me2.php:58
+msgid "About Header"
+msgstr ""
+
+#: elementor/widgets/about-me.php:39
+msgid "About Me "
+msgstr ""
+
+#: elementor/widgets/about-me2.php:39
+msgid "About Me 2 "
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:35
+msgid "About Tabs"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:125
+#: elementor/widgets/brand-library-tabs.php:114
+#: elementor/widgets/library-tabs.php:116
+#: elementor/widgets/resume-library-tabs.php:117
+msgid "Active"
+msgstr ""
+
+#: elementor/widgets/button.php:175 elementor/widgets/button.php:245
+msgid "Active Icon"
+msgstr ""
+
+#: elementor/widgets/button.php:152
+msgid "Active Shadow"
+msgstr ""
+
+#: include/custom-post-type-base.php:51 include/custom-post.php:13
+#: include/sidebar-generator.php:51
+msgid "Add New"
+msgstr ""
+
+#: include/custom-post-type-base.php:50
+msgid "Add New Item"
+msgstr ""
+
+#: include/custom-post.php:14
+msgid "Add New Projects"
+msgstr ""
+
+#: include/custom-post.php:49
+msgid "Add New Projects Category"
+msgstr ""
+
+#: include/sidebar-generator.php:42
+msgid "Add New Sidebar"
+msgstr ""
+
+#: include/custom-post-type-base.php:137
+msgid "Add or remove items"
+msgstr ""
+
+#: elementor/widgets/social-share.php:213
+msgid "Add your link URL here."
+msgstr ""
+
+#: elementor/widgets/about-me.php:217
+msgid "Address"
+msgstr ""
+
+#: include/widgets/about-widget.php:155
+msgid "Address Label:"
+msgstr ""
+
+#: include/widgets/about-widget.php:160
+msgid "Address:"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:186
+msgid "admin@example.com"
+msgstr ""
+
+#: elementor/widgets/progress.php:127
+msgid "ADOBE ILLUSTRATOR"
+msgstr ""
+
+#: elementor/widgets/progress.php:123
+msgid "ADOBE XD."
+msgstr ""
+
+#: elementor/widgets/about-me.php:93
+msgid "After Name Title"
+msgstr ""
+
+#: include/common-functions.php:181 elementor/widgets/rb-divider.php:82
+msgid "Alignment"
+msgstr ""
+
+#: elementor/widgets/templates/portfolio-isotope-2.php:88
+msgid "All"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:68 elementor/widgets/search.php:287
+#: elementor/widgets/team.php:43
+msgid "All Categories"
+msgstr ""
+
+#: include/custom-post-type-base.php:49
+msgid "All Items"
+msgstr ""
+
+#: include/custom-post.php:44
+msgid "All Projects Categories"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:107
+msgid ""
+"All the Lorem Ipsum generators on the Internet tend to repeat predefined "
+"chunks as necessary"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:98
+msgid "Amount Text"
+msgstr ""
+
+#: elementor/widgets/brand.php:121 elementor/widgets/brand.php:125
+#: elementor/widgets/brand.php:129 elementor/widgets/brand.php:133
+#: elementor/widgets/project-carousel.php:118
+#: elementor/widgets/project-carousel.php:122
+#: elementor/widgets/project-carousel.php:126
+#: elementor/widgets/project-carousel.php:130
+#: elementor/widgets/testimonial-carousel.php:199
+#: elementor/widgets/testimonial-carousel.php:203
+#: elementor/widgets/testimonial-carousel.php:207
+#: elementor/widgets/testimonial-carousel.php:211
+#: elementor/widgets/testimonial-carousel.php:284
+#: elementor/widgets/testimonial-carousel.php:288
+#: elementor/widgets/testimonial-carousel.php:292
+#: elementor/widgets/testimonial-carousel.php:296
+msgid "Amy Smith"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:140
+msgid "Android App Development"
+msgstr ""
+
+#: elementor/widgets/countdown.php:120
+msgid "Animation"
+msgstr ""
+
+#: elementor/widgets/services-repeater.php:200
+msgid "App Development"
+msgstr ""
+
+#: elementor/widgets/list.php:111
+msgid "App Development."
+msgstr ""
+
+#: elementor/widgets/experience.php:95 elementor/widgets/experience.php:148
+msgid "App Development. "
+msgstr ""
+
+#: include/sidebar-generator.php:81
+msgid "Are you sure you want to remove this custom sidebar"
+msgstr ""
+
+#: include/common-functions.php:625
+msgid "Arrow Icon"
+msgstr ""
+
+#: include/common-functions.php:333 elementor/widgets/post-grid.php:167
+msgid "Ascending"
+msgstr ""
+
+#: include/common-functions.php:290
+msgid "Audio"
+msgstr ""
+
+#: elementor/widgets/search.php:90
+msgid "Autocomplete"
+msgstr ""
+
+#: include/common-functions.php:449 elementor/widgets/info-box.php:181
+#: elementor/widgets/info-box.php:190 elementor/widgets/poster-banner.php:168
+msgid "Background"
+msgstr ""
+
+#: include/common-functions.php:676 include/common-functions.php:736
+msgid "Background Color"
+msgstr ""
+
+#: elementor/widgets/about-me.php:133
+msgid "Background Image"
+msgstr ""
+
+#: elementor/widgets/info-box.php:113
+msgid "Banner Height"
+msgstr ""
+
+#: elementor/widgets/info-box.php:237
+msgid "Banner Images"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:29
+msgid "Banner Slider"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:295 elementor/widgets/about-me2.php:296
+msgid "Barisal, Bangladesh"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:118
+msgid "Before / Sub Title"
+msgstr ""
+
+#: elementor/widgets/about-me.php:113
+msgid "Before Name Title"
+msgstr ""
+
+#: elementor/widgets/info-box.php:74
+#: elementor/widgets/testimonial-carousel.php:109
+msgid "Before Title"
+msgstr ""
+
+#: elementor/widgets/info-box.php:222
+msgid "Before Title Color"
+msgstr ""
+
+#: elementor/widgets/info-box.php:338
+msgid "Before Title Typography"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:247 elementor/widgets/about-me2.php:248
+#: elementor/widgets/about-me2.php:255
+msgid "Birthday"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:245
+msgid "Birthday label"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:36
+msgid "Blog Post"
+msgstr ""
+
+#: include/common-functions.php:458
+msgid "Border"
+msgstr ""
+
+#: elementor/widgets/button.php:84 elementor/widgets/button.php:236
+msgid "Border Button"
+msgstr ""
+
+#: include/common-functions.php:687 include/common-functions.php:748
+msgid "Border Color"
+msgstr ""
+
+#: include/common-functions.php:701 elementor/widgets/info-box.php:142
+#: elementor/widgets/poster-banner.php:129
+msgid "Border Radius"
+msgstr ""
+
+#: elementor/widgets/button.php:108
+msgid "Border radius"
+msgstr ""
+
+#: elementor/widgets/image-holder.php:102
+msgid "Box Background"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:78
+msgid "Box Height"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:217
+#: elementor/widgets/social-share.php:134
+msgid "Box Shadow"
+msgstr ""
+
+#: elementor/widgets/brand.php:31 elementor/widgets/brand.php:75
+msgid "Brand"
+msgstr ""
+
+#: elementor/widgets/brand.php:84
+msgid "Brand Image"
+msgstr ""
+
+#: elementor/widgets/brand-library-tabs.php:35
+msgid "Brand Library Tabs"
+msgstr ""
+
+#: elementor/widgets/list.php:106
+msgid "Business Development"
+msgstr ""
+
+#: elementor/widgets/services-repeater.php:68
+#: elementor/widgets/services-repeater.php:194
+#: elementor/widgets/services-repeater.php:206
+msgid "Business Stratagy"
+msgstr ""
+
+#: elementor/widgets/list.php:78 elementor/widgets/list.php:101
+msgid "Business Stratagy ."
+msgstr ""
+
+#: elementor/widgets/button.php:54 elementor/widgets/experience.php:461
+#: elementor/widgets/pricing-table.php:607
+msgid "Button"
+msgstr ""
+
+#: elementor/widgets/button.php:66 elementor/widgets/button.php:207
+msgid "Button Group"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:113
+msgid "Button Link"
+msgstr ""
+
+#: include/common-functions.php:607 elementor/widgets/button.php:93
+msgid "Button Size"
+msgstr ""
+
+#: include/common-functions.php:593 elementor/widgets/button.php:298
+msgid "Button Style"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:104 elementor/widgets/button.php:187
+#: elementor/widgets/button.php:257 elementor/widgets/countdown.php:88
+msgid "Button Text"
+msgstr ""
+
+#: elementor/widgets/button.php:309
+msgid "Button Typography"
+msgstr ""
+
+#: elementor/widgets/button.php:195 elementor/widgets/button.php:265
+msgid "Button URL"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:439
+msgid "Card Sub Title"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:374
+msgid "Card Title"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:311
+msgid "Card Title Before"
+msgstr ""
+
+#: elementor/widgets/brand.php:60 elementor/widgets/portfolio-grid.php:66
+msgid "Carousel"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:76
+msgid "Carousel Image Title"
+msgstr ""
+
+#: elementor/widgets/team.php:84
+msgid "Categories"
+msgstr ""
+
+#: include/common-functions.php:246 elementor/widgets/portfolio-grid.php:88
+#: elementor/widgets/post-grid.php:86 elementor/widgets/post-grid.php:321
+msgid "Category"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:357
+msgid "Category Color"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:255
+msgid "Category Display"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:369
+msgid "Category Hover Color"
+msgstr ""
+
+#: include/common-functions.php:189 elementor/widgets/button.php:135
+#: elementor/widgets/rb-divider.php:90 elementor/widgets/social-share.php:95
+#: elementor/widgets/social-share.php:119 elementor/widgets/title.php:78
+msgid "Center"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:161
+msgid "check On"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:133
+#: elementor/widgets/testimonial-carousel.php:130
+msgid "Chief Operating Officer"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:145
+msgid ""
+"Chief Operating Officer I am available for freelance work. Connect with me "
+"via and call in to my account. "
+msgstr ""
+
+#: include/custom-post-type-base.php:138
+msgid "Choose from the most used"
+msgstr ""
+
+#: elementor/widgets/about-me.php:229
+msgid "Clip  List"
+msgstr ""
+
+#: elementor/widgets/experience.php:103
+msgid "Co-Founder, Web Designer & Developer"
+msgstr ""
+
+#: include/common-functions.php:386 elementor/widgets/about-me.php:284
+#: elementor/widgets/about-me.php:331 elementor/widgets/about-me.php:397
+#: elementor/widgets/about-me2.php:325 elementor/widgets/about-me2.php:386
+#: elementor/widgets/banner-slider.php:168
+#: elementor/widgets/banner-slider.php:228 elementor/widgets/brand.php:168
+#: elementor/widgets/button.php:318 elementor/widgets/countdown.php:156
+#: elementor/widgets/countdown.php:216 elementor/widgets/experience.php:184
+#: elementor/widgets/experience.php:258 elementor/widgets/experience.php:332
+#: elementor/widgets/experience.php:406 elementor/widgets/experience.php:481
+#: elementor/widgets/icon-box.php:192 elementor/widgets/icon-box.php:252
+#: elementor/widgets/info-box.php:201 elementor/widgets/list.php:134
+#: elementor/widgets/my-resume.php:163 elementor/widgets/my-resume.php:223
+#: elementor/widgets/my-resume.php:283 elementor/widgets/my-resume.php:343
+#: elementor/widgets/my-resume.php:404 elementor/widgets/my-resume.php:465
+#: elementor/widgets/our-services.php:179
+#: elementor/widgets/our-services.php:226
+#: elementor/widgets/our-services.php:287
+#: elementor/widgets/our-services.php:338 elementor/widgets/post-grid.php:329
+#: elementor/widgets/post-grid.php:401 elementor/widgets/post-grid.php:461
+#: elementor/widgets/post-grid.php:534 elementor/widgets/poster-banner.php:221
+#: elementor/widgets/pricing-table.php:362
+#: elementor/widgets/pricing-table.php:426
+#: elementor/widgets/pricing-table.php:490
+#: elementor/widgets/pricing-table.php:551
+#: elementor/widgets/pricing-table.php:615
+#: elementor/widgets/pricing-table.php:682
+#: elementor/widgets/pricing-table.php:743 elementor/widgets/progress.php:151
+#: elementor/widgets/progress.php:212 elementor/widgets/progress.php:275
+#: elementor/widgets/project-carousel.php:153
+#: elementor/widgets/project-carousel.php:204 elementor/widgets/search.php:244
+#: elementor/widgets/services-repeater.php:230
+#: elementor/widgets/services-repeater.php:277
+#: elementor/widgets/services-repeater.php:338
+#: elementor/widgets/social-share.php:264 elementor/widgets/team.php:224
+#: elementor/widgets/team.php:309
+#: elementor/widgets/testimonial-carousel.php:322
+#: elementor/widgets/testimonial-carousel.php:383
+#: elementor/widgets/testimonial-carousel.php:448
+#: elementor/widgets/testimonial-carousel.php:514
+#: elementor/widgets/testimonial-carousel.php:577
+#: elementor/widgets/testimonial-carousel.php:638
+#: elementor/widgets/title.php:165 elementor/widgets/title.php:215
+msgid "Color"
+msgstr ""
+
+#: include/common-functions.php:786
+msgid "Columns for Desktop"
+msgstr ""
+
+#: include/common-functions.php:806
+msgid "Columns for Laptop"
+msgstr ""
+
+#: include/common-functions.php:846
+msgid "Columns for Mobile"
+msgstr ""
+
+#: include/common-functions.php:826
+msgid "Columns for Tablet"
+msgstr ""
+
+#: elementor/widgets/about-me.php:188 elementor/widgets/about-me2.php:215
+#: elementor/widgets/contact-info.php:35
+msgid "Contact Info"
+msgstr ""
+
+#: elementor/widgets/about-me.php:167 elementor/widgets/experience.php:119
+msgid "CONTACT ME"
+msgstr ""
+
+#: elementor/widgets/about-me.php:122 elementor/widgets/about-me.php:125
+#: elementor/widgets/about-tabs.php:85
+#: elementor/widgets/brand-library-tabs.php:85
+#: elementor/widgets/contact-info.php:141 elementor/widgets/experience.php:109
+#: elementor/widgets/experience.php:386 elementor/widgets/library-tabs.php:85
+#: elementor/widgets/login-img-map.php:78
+#: elementor/widgets/pricing-table.php:482
+#: elementor/widgets/project-carousel.php:103
+#: elementor/widgets/project-carousel.php:195
+#: elementor/widgets/resume-library-tabs.php:87
+#: elementor/widgets/testimonial-carousel.php:155
+#: elementor/widgets/testimonial-carousel.php:269
+msgid "Content"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:281 elementor/widgets/team.php:133
+msgid "Content Display"
+msgstr ""
+
+#: elementor/widgets/about-me.php:388 elementor/widgets/about-me2.php:365
+#: elementor/widgets/banner-slider.php:80 elementor/widgets/countdown.php:135
+#: elementor/widgets/icon-box.php:231 elementor/widgets/our-services.php:278
+#: elementor/widgets/services-repeater.php:329
+msgid "Content or Subtitle"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:190
+#: elementor/widgets/pricing-table.php:247
+#: elementor/widgets/pricing-table.php:306
+msgid "Content Upload"
+msgstr ""
+
+#: elementor/widgets/countdown.php:53
+msgid "Countdown Info"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:136 elementor/widgets/contact-info.php:246
+#: elementor/widgets/icon-box.php:96 elementor/widgets/our-services.php:114
+#: elementor/widgets/services-repeater.php:103
+#: elementor/widgets/social-share.php:172
+msgid "Custom Image"
+msgstr ""
+
+#: elementor/widgets/team.php:98
+msgid "Custom Order (Available via Order field inside Page Attributes box)"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:314 elementor/widgets/about-me2.php:373
+#: elementor/widgets/banner-slider.php:155
+#: elementor/widgets/banner-slider.php:215 elementor/widgets/brand.php:156
+#: elementor/widgets/countdown.php:143 elementor/widgets/countdown.php:203
+#: elementor/widgets/experience.php:171 elementor/widgets/experience.php:246
+#: elementor/widgets/experience.php:320 elementor/widgets/experience.php:394
+#: elementor/widgets/experience.php:469 elementor/widgets/icon-box.php:179
+#: elementor/widgets/icon-box.php:239 elementor/widgets/search.php:231
+#: elementor/widgets/team.php:211 elementor/widgets/team.php:296
+msgid "Customize"
+msgstr ""
+
+#: elementor/widgets/experience.php:85 elementor/widgets/experience.php:163
+msgid "Date"
+msgstr ""
+
+#: elementor/widgets/team.php:96
+msgid "Date (Recents comes first)"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:457
+msgid "Date-of-time"
+msgstr ""
+
+#: elementor/widgets/countdown.php:81
+msgid "Date-Time"
+msgstr ""
+
+#: elementor/widgets/button.php:82
+msgid "Default  Button"
+msgstr ""
+
+#: elementor/widgets/button.php:234
+msgid "Default Button"
+msgstr ""
+
+#: include/common-functions.php:334 elementor/widgets/post-grid.php:168
+msgid "Descending"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:106
+msgid "description"
+msgstr ""
+
+#: elementor/widgets/progress.php:131
+msgid "DESIGN"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:184
+#: elementor/widgets/pricing-table.php:193
+#: elementor/widgets/pricing-table.php:241
+#: elementor/widgets/pricing-table.php:250
+msgid "Design Customization"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:299
+msgid "Design Figma"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:83
+msgid "Design Make this Page"
+msgstr ""
+
+#: elementor/widgets/progress.php:72 elementor/widgets/progress.php:73
+msgid "Design Skill"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:309
+msgid "Design With XD"
+msgstr ""
+
+#: elementor/widgets/about-me.php:197 elementor/widgets/experience.php:101
+#: elementor/widgets/experience.php:312
+#: elementor/widgets/project-carousel.php:94 elementor/widgets/team.php:288
+#: elementor/widgets/testimonial-carousel.php:128
+#: elementor/widgets/testimonial-carousel.php:259
+msgid "Designation"
+msgstr ""
+
+#: elementor/widgets/team.php:110
+msgid "Designation Display"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:253
+msgid "Desktops/Tabs/Mobiles Columns"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:261 elementor/widgets/team.php:155
+msgid "Desktops: > 1199px"
+msgstr ""
+
+#: elementor/widgets/team.php:170
+msgid "Desktops: > 991px"
+msgstr ""
+
+#: elementor/widgets/about-me.php:165 elementor/widgets/experience.php:117
+#: elementor/widgets/icon-box.php:150 elementor/widgets/info-box.php:95
+#: elementor/widgets/pricing-table.php:118
+msgid "Detail Text"
+msgstr ""
+
+#: elementor/widgets/about-me.php:175 elementor/widgets/brand.php:106
+#: elementor/widgets/experience.php:125 elementor/widgets/icon-box.php:159
+#: elementor/widgets/info-box.php:104 elementor/widgets/our-services.php:100
+#: elementor/widgets/poster-banner.php:210
+#: elementor/widgets/pricing-table.php:127
+#: elementor/widgets/services-repeater.php:87
+msgid "Detail URL"
+msgstr ""
+
+#: elementor/widgets/about-me.php:241 elementor/widgets/about-me.php:256
+#: elementor/widgets/about-me.php:262 elementor/widgets/about-me2.php:123
+#: elementor/widgets/contact-info.php:233
+#: elementor/widgets/social-share.php:159
+msgid "Developer."
+msgstr ""
+
+#: elementor/widgets/post-grid.php:223
+msgid "Display Options"
+msgstr ""
+
+#: include/widgets/recent-posts.php:132
+msgid "Display post date?"
+msgstr ""
+
+#: include/widgets/recent-posts.php:136
+msgid "Display Read Time?"
+msgstr ""
+
+#: elementor/widgets/title.php:123
+msgid "div"
+msgstr ""
+
+#: elementor/widgets/rb-divider.php:47
+msgid "Divider"
+msgstr ""
+
+#: include/custom-post-type-base.php:53
+msgid "Edit Item"
+msgstr ""
+
+#: include/custom-post.php:15
+msgid "Edit Projects"
+msgstr ""
+
+#: include/custom-post.php:47
+msgid "Edit Projects Category"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:68
+msgid "Education Quality"
+msgstr ""
+
+#: elementor/widgets/about-me.php:208 elementor/widgets/about-me2.php:225
+#: elementor/widgets/about-me2.php:226 elementor/widgets/about-me2.php:234
+#: elementor/widgets/contact-info.php:183
+msgid "Email"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:223
+msgid "Email label"
+msgstr ""
+
+#: include/widgets/about-widget.php:144
+msgid "Email Label:"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:173
+msgid "Email Lable"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:176 include/widgets/about-widget.php:149
+msgid "Email:"
+msgstr ""
+
+#: include/sidebar-generator.php:98 include/sidebar-generator.php:145
+msgid "Empty nonce"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:169
+msgid "Enable or disable Show Rating. Default: On"
+msgstr ""
+
+#: include/common-functions.php:518
+msgid "Enter button text"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:139
+msgid "Examples Of Personal Portfolio"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:98
+msgid "Exclude"
+msgstr ""
+
+#: include/common-functions.php:256 elementor/widgets/post-grid.php:96
+msgid "Exclude Category"
+msgstr ""
+
+#: include/common-functions.php:276 elementor/widgets/post-grid.php:117
+msgid "Exclude post"
+msgstr ""
+
+#: elementor/widgets/experience.php:31
+msgid "Experience Boxs"
+msgstr ""
+
+#: include/common-functions.php:610
+msgid "Extra Large"
+msgstr ""
+
+#: elementor/widgets/social-share.php:231
+msgid "Facebook"
+msgstr ""
+
+#: include/widgets/social-media.php:116
+msgid "Facebook Link:"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:193 elementor/widgets/contact-info.php:305
+msgid "facebook."
+msgstr ""
+
+#: include/custom-post-type-base.php:59
+msgid "Featured Image"
+msgstr ""
+
+#: elementor/widgets/progress.php:63 elementor/widgets/progress.php:64
+msgid "Features"
+msgstr ""
+
+#: elementor/widgets/progress.php:119
+msgid "FIGMA"
+msgstr ""
+
+#: include/custom-post-type-base.php:67
+msgid "Filter items list"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:208
+#: elementor/widgets/contact-info.php:209
+msgid "FIND WITH ME"
+msgstr ""
+
+#: elementor/widgets/social-share.php:79 elementor/widgets/social-share.php:80
+msgid "find with me"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:735
+msgid "Footer +"
+msgstr ""
+
+#: elementor/widgets/our-services.php:81
+msgid "From Cleaning to Disposal"
+msgstr ""
+
+#: include/common-functions.php:292
+msgid "Gallery"
+msgstr ""
+
+#: elementor/widgets/rb-divider.php:108
+msgid "Gap"
+msgstr ""
+
+#: elementor/widgets/icon-box.php:53 elementor/widgets/info-box.php:54
+#: elementor/widgets/pricing-table.php:58
+msgid "General"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:55
+msgid "General Content"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:65
+msgid "Grid"
+msgstr ""
+
+#: elementor/widgets/brand.php:61
+msgid "Grid 1"
+msgstr ""
+
+#: elementor/widgets/brand.php:63
+msgid "Grid 2"
+msgstr ""
+
+#: elementor/widgets/brand.php:64
+msgid "Grid 3"
+msgstr ""
+
+#: elementor/widgets/brand.php:62
+msgid "Grid Skill"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:74
+msgid "Grid spaces"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:78
+msgid "Grid spaces 15"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:79
+msgid "Grid spaces 20"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:80
+msgid "Grid spaces 25"
+msgstr ""
+
+#: elementor/widgets/button.php:220 elementor/widgets/button.php:222
+msgid "Group Title"
+msgstr ""
+
+#: include/common-functions.php:149 elementor/widgets/title.php:99
+msgid "H1"
+msgstr ""
+
+#: include/common-functions.php:153 elementor/widgets/title.php:103
+msgid "H2"
+msgstr ""
+
+#: include/common-functions.php:157 elementor/widgets/title.php:107
+msgid "H3"
+msgstr ""
+
+#: include/common-functions.php:161 elementor/widgets/title.php:111
+msgid "H4"
+msgstr ""
+
+#: include/common-functions.php:165 elementor/widgets/title.php:115
+msgid "H5"
+msgstr ""
+
+#: include/common-functions.php:169 elementor/widgets/title.php:119
+msgid "H6"
+msgstr ""
+
+#: elementor/widgets/our-services.php:79
+msgid "Header Title"
+msgstr ""
+
+#: elementor/widgets/rb-divider.php:130
+msgid "Height"
+msgstr ""
+
+#: elementor/widgets/about-me.php:95 elementor/widgets/about-me.php:96
+msgid "Hi, I’m"
+msgstr ""
+
+#: include/common-functions.php:506 include/common-functions.php:628
+msgid "Hide"
+msgstr ""
+
+#: include/common-functions.php:719
+msgid "Hover"
+msgstr ""
+
+#: elementor/widgets/list.php:148 elementor/widgets/our-services.php:238
+#: elementor/widgets/post-grid.php:341 elementor/widgets/post-grid.php:473
+#: elementor/widgets/services-repeater.php:289 elementor/widgets/team.php:237
+msgid "Hover Color"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/rainbow-themes"
+msgstr ""
+
+#: include/common-functions.php:543
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/widgets/services-repeater.php:78
+#: elementor/widgets/services-repeater.php:195
+#: elementor/widgets/services-repeater.php:201
+#: elementor/widgets/services-repeater.php:207
+msgid ""
+"I throw myself down among the tall grass by the stream as Ilie close to the "
+"earth."
+msgstr ""
+
+#: elementor/widgets/about-me.php:124
+msgid ""
+"I use animation as a third dimension by which to simplify experiences and "
+"kuiding thro each and every interaction. I’m not adding motion just to "
+"spruce things up, but doing it in ways that."
+msgstr ""
+
+#: elementor/widgets/about-me2.php:135 elementor/widgets/contact-info.php:245
+#: elementor/widgets/icon-box.php:95 elementor/widgets/our-services.php:113
+#: elementor/widgets/our-services.php:171
+#: elementor/widgets/services-repeater.php:102
+#: elementor/widgets/services-repeater.php:222
+#: elementor/widgets/social-share.php:171
+msgid "Icon"
+msgstr ""
+
+#: elementor/widgets/social-share.php:111
+msgid "Icon Alignment"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:130 elementor/widgets/contact-info.php:240
+#: elementor/widgets/services-repeater.php:97
+#: elementor/widgets/social-share.php:166
+msgid "Icon Type"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:144 elementor/widgets/contact-info.php:255
+#: elementor/widgets/icon-box.php:104 elementor/widgets/our-services.php:122
+#: elementor/widgets/services-repeater.php:112
+#: elementor/widgets/social-share.php:181
+msgid "Icons"
+msgstr ""
+
+#: include/common-functions.php:343 elementor/widgets/post-grid.php:177
+msgid "Ignore sticky posts"
+msgstr ""
+
+#: elementor/widgets/about-me.php:149 elementor/widgets/about-me2.php:84
+#: elementor/widgets/about-me2.php:159 elementor/widgets/contact-info.php:91
+#: elementor/widgets/contact-info.php:271 elementor/widgets/countdown.php:106
+#: elementor/widgets/icon-box.php:119 elementor/widgets/image-holder.php:47
+#: elementor/widgets/image-holder.php:68 elementor/widgets/login-img-map.php:53
+#: elementor/widgets/our-services.php:137
+#: elementor/widgets/poster-banner.php:175
+#: elementor/widgets/services-repeater.php:127
+#: elementor/widgets/social-share.php:196 elementor/widgets/video-popup.php:47
+#: elementor/widgets/video-popup.php:53
+msgid "Image"
+msgstr ""
+
+#: elementor/widgets/info-box.php:245 elementor/widgets/search.php:136
+msgid "Image 1"
+msgstr ""
+
+#: elementor/widgets/info-box.php:259 elementor/widgets/search.php:150
+msgid "Image 2"
+msgstr ""
+
+#: elementor/widgets/info-box.php:273 elementor/widgets/search.php:164
+msgid "Image 3"
+msgstr ""
+
+#: elementor/widgets/info-box.php:287 elementor/widgets/search.php:178
+msgid "Image 4"
+msgstr ""
+
+#: elementor/widgets/search.php:192
+msgid "Image 5"
+msgstr ""
+
+#: elementor/widgets/search.php:206
+msgid "Image 6"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:31
+msgid "Image Carousel"
+msgstr ""
+
+#: elementor/widgets/image-holder.php:29
+msgid "Image Holder"
+msgstr ""
+
+#: elementor/widgets/login-img-map.php:29
+#: elementor/widgets/login-img-map.php:47
+msgid "Image Map"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:100
+msgid "Image1"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:104
+msgid "Image2"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:108
+msgid "Image3"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:57
+msgid "Images"
+msgstr ""
+
+#: lib/feather-elements-icons.php:347
+msgid "Inbio - Feather Icons"
+msgstr ""
+
+#: elementor/widgets/rb-divider.php:28
+msgid "Inbio Divider"
+msgstr ""
+
+#: include/widgets/social-media.php:23
+msgid "inbio: Social Media Widget"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:55
+msgid "Info "
+msgstr ""
+
+#: elementor/widgets/info-box.php:36
+msgid "Info Banner"
+msgstr ""
+
+#: include/custom-post-type-base.php:63
+msgid "Insert into item"
+msgstr ""
+
+#: include/widgets/social-media.php:124
+msgid "Instagram Link:"
+msgstr ""
+
+#: include/sidebar-generator.php:101 include/sidebar-generator.php:148
+msgid "Invalid nonce"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:77
+#: elementor/widgets/brand-library-tabs.php:77
+#: elementor/widgets/library-tabs.php:77
+#: elementor/widgets/resume-library-tabs.php:78
+msgid "It seems that, you have not saved any template yet."
+msgstr ""
+
+#: include/custom-post-type-base.php:47
+msgid "Item Archives"
+msgstr ""
+
+#: include/custom-post-type-base.php:65
+msgid "Items list"
+msgstr ""
+
+#: include/custom-post-type-base.php:66
+msgid "Items list navigation"
+msgstr ""
+
+#: elementor/widgets/about-me.php:210 elementor/widgets/about-me.php:211
+#: elementor/widgets/about-me2.php:236 elementor/widgets/about-me2.php:237
+msgid "john.slady@gmail.coms"
+msgstr ""
+
+#: elementor/widgets/about-me.php:105 elementor/widgets/about-me.php:106
+msgid "Jone Lee"
+msgstr ""
+
+#: include/common-functions.php:611 elementor/widgets/button.php:97
+#: elementor/widgets/social-share.php:68
+msgid "Large"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:56 elementor/widgets/brand.php:50
+#: elementor/widgets/icon-box.php:60 elementor/widgets/image-holder.php:53
+#: elementor/widgets/info-box.php:60 elementor/widgets/list.php:63
+#: elementor/widgets/our-services.php:65
+#: elementor/widgets/portfolio-grid.php:61
+#: elementor/widgets/poster-banner.php:61 elementor/widgets/search.php:57
+#: elementor/widgets/testimonial-carousel.php:50 elementor/widgets/title.php:53
+msgid "Layout"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:49
+msgid "Layout / Banner Content"
+msgstr ""
+
+#: elementor/widgets/list.php:67
+msgid "Layout 1"
+msgstr ""
+
+#: elementor/widgets/icon-box.php:64 elementor/widgets/image-holder.php:57
+#: elementor/widgets/info-box.php:64
+msgid "Layout 1 ( Single Image )"
+msgstr ""
+
+#: elementor/widgets/search.php:61
+msgid "Layout 1 (Single Image)"
+msgstr ""
+
+#: elementor/widgets/icon-box.php:65 elementor/widgets/info-box.php:65
+#: elementor/widgets/list.php:68 elementor/widgets/search.php:62
+msgid "Layout 2"
+msgstr ""
+
+#: elementor/widgets/image-holder.php:58
+msgid "Layout 2 ( Large Padding )"
+msgstr ""
+
+#: elementor/widgets/image-holder.php:59
+msgid "Layout 3 ( Video Popup )"
+msgstr ""
+
+#: elementor/widgets/image-holder.php:60
+msgid "Layout 4 ( Gradient Box )"
+msgstr ""
+
+#: elementor/widgets/about-me.php:74
+msgid "Layout Five"
+msgstr ""
+
+#: elementor/widgets/about-me.php:73
+msgid "Layout Four"
+msgstr ""
+
+#: elementor/widgets/about-me.php:70 elementor/widgets/our-services.php:69
+msgid "Layout One"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:70
+msgid "Layout one"
+msgstr ""
+
+#: elementor/widgets/about-me.php:75
+msgid "Layout Six"
+msgstr ""
+
+#: elementor/widgets/about-me.php:72
+msgid "Layout Three"
+msgstr ""
+
+#: elementor/widgets/about-me.php:71 elementor/widgets/our-services.php:70
+#: elementor/widgets/pricing-table.php:71
+msgid "Layout Two"
+msgstr ""
+
+#: elementor/widgets/social-share.php:214
+msgid "Leave it blank if you do not want to link."
+msgstr ""
+
+#: include/common-functions.php:185 elementor/widgets/button.php:131
+#: elementor/widgets/rb-divider.php:86 elementor/widgets/social-share.php:91
+#: elementor/widgets/social-share.php:115 elementor/widgets/title.php:74
+msgid "Left"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:97
+#: elementor/widgets/brand-library-tabs.php:97
+#: elementor/widgets/library-tabs.php:97
+#: elementor/widgets/resume-library-tabs.php:99
+msgid "Library Tabs Items"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:150
+msgid "Like Meta Display"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:231
+msgid "LIKE THIS"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:229
+msgid "Like This Text"
+msgstr ""
+
+#: include/common-functions.php:293 include/common-functions.php:598
+#: elementor/widgets/our-services.php:327
+msgid "Link"
+msgstr ""
+
+#: elementor/widgets/social-share.php:239
+msgid "Linkedin"
+msgstr ""
+
+#: include/widgets/social-media.php:129
+msgid "Linkedin Link:"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:201 elementor/widgets/contact-info.php:313
+msgid "linkedin."
+msgstr ""
+
+#: elementor/widgets/list.php:55 elementor/widgets/list.php:125
+#: elementor/widgets/pricing-table.php:150
+msgid "List"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:82
+msgid "List Content"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:219
+msgid "List Left"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:335 elementor/widgets/my-resume.php:396
+msgid "List Sub Title"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:73 elementor/widgets/my-resume.php:275
+#: elementor/widgets/pricing-table.php:543
+msgid "List Title"
+msgstr ""
+
+#: elementor/widgets/list.php:85
+msgid "List Url"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:152
+#: elementor/widgets/pricing-table.php:221
+#: elementor/widgets/pricing-table.php:281
+msgid "Livingroom Cleaning"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:285 elementor/widgets/about-me2.php:286
+#: elementor/widgets/about-me2.php:293
+msgid "Location"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:283
+msgid "Location label"
+msgstr ""
+
+#: elementor/widgets/button.php:281 elementor/widgets/button.php:284
+msgid "LOREM IPSUM"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:96
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quidem "
+"dignissimos. Perspiciatis fuga soluta officiis eligendi labore, omnis ut "
+"velit vitae suscipit alias cumque temporibus. "
+msgstr ""
+
+#: elementor/widgets/our-services.php:91
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:302
+msgid "Maintaine Design"
+msgstr ""
+
+#: include/common-functions.php:417 include/common-functions.php:479
+#: include/common-functions.php:639 elementor/widgets/about-me.php:307
+#: elementor/widgets/about-me.php:370 elementor/widgets/about-me.php:420
+#: elementor/widgets/about-me2.php:348 elementor/widgets/about-me2.php:409
+#: elementor/widgets/banner-slider.php:191
+#: elementor/widgets/banner-slider.php:251 elementor/widgets/brand.php:192
+#: elementor/widgets/countdown.php:179 elementor/widgets/countdown.php:239
+#: elementor/widgets/experience.php:208 elementor/widgets/experience.php:282
+#: elementor/widgets/experience.php:356 elementor/widgets/experience.php:430
+#: elementor/widgets/experience.php:505 elementor/widgets/icon-box.php:215
+#: elementor/widgets/icon-box.php:275 elementor/widgets/list.php:173
+#: elementor/widgets/list.php:187 elementor/widgets/my-resume.php:186
+#: elementor/widgets/my-resume.php:246 elementor/widgets/my-resume.php:306
+#: elementor/widgets/my-resume.php:366 elementor/widgets/my-resume.php:427
+#: elementor/widgets/my-resume.php:488 elementor/widgets/our-services.php:202
+#: elementor/widgets/our-services.php:261
+#: elementor/widgets/our-services.php:310
+#: elementor/widgets/our-services.php:361 elementor/widgets/post-grid.php:364
+#: elementor/widgets/post-grid.php:424 elementor/widgets/post-grid.php:497
+#: elementor/widgets/post-grid.php:558 elementor/widgets/pricing-table.php:386
+#: elementor/widgets/pricing-table.php:450
+#: elementor/widgets/pricing-table.php:513
+#: elementor/widgets/pricing-table.php:576
+#: elementor/widgets/pricing-table.php:640
+#: elementor/widgets/pricing-table.php:705
+#: elementor/widgets/pricing-table.php:766 elementor/widgets/progress.php:175
+#: elementor/widgets/progress.php:189 elementor/widgets/progress.php:237
+#: elementor/widgets/progress.php:251 elementor/widgets/progress.php:301
+#: elementor/widgets/progress.php:316
+#: elementor/widgets/project-carousel.php:177
+#: elementor/widgets/project-carousel.php:228 elementor/widgets/search.php:267
+#: elementor/widgets/services-repeater.php:253
+#: elementor/widgets/services-repeater.php:312
+#: elementor/widgets/services-repeater.php:361
+#: elementor/widgets/social-share.php:287 elementor/widgets/team.php:261
+#: elementor/widgets/team.php:332
+#: elementor/widgets/testimonial-carousel.php:345
+#: elementor/widgets/testimonial-carousel.php:408
+#: elementor/widgets/testimonial-carousel.php:472
+#: elementor/widgets/testimonial-carousel.php:537
+#: elementor/widgets/testimonial-carousel.php:600
+#: elementor/widgets/testimonial-carousel.php:662
+#: elementor/widgets/title.php:189 elementor/widgets/title.php:238
+msgid "Margin"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:67 elementor/widgets/about-me2.php:68
+msgid "Md Alamin Bali"
+msgstr ""
+
+#: include/common-functions.php:612 elementor/widgets/button.php:98
+#: elementor/widgets/social-share.php:67
+msgid "Medium"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:393
+msgid "Meta"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:403
+msgid "Meta Color"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:268
+msgid "Meta Display"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:416
+msgid "Meta Hover Color"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:289
+msgid "Mobiles: > 767px"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:239
+msgid "Modal Button \"VIEW PROJECT\""
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:207
+msgid "Modal Popup"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:296
+msgid "Multipage Elementor"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:39
+msgid "My Resume "
+msgstr ""
+
+#: include/sidebar-generator.php:49 elementor/widgets/about-me.php:103
+#: elementor/widgets/about-me2.php:65
+msgid "Name"
+msgstr ""
+
+#: elementor/widgets/about-me.php:346
+msgid "Name Color"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:107
+#: elementor/widgets/brand-library-tabs.php:106
+#: elementor/widgets/library-tabs.php:107
+#: elementor/widgets/resume-library-tabs.php:109
+msgid "Nav Title"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:121
+msgid "Nevine Acotanza"
+msgstr ""
+
+#: include/custom-post-type-base.php:52
+msgid "New Item"
+msgstr ""
+
+#: include/custom-post.php:16
+msgid "New Projects"
+msgstr ""
+
+#: include/custom-post.php:50
+msgid "New Projects Category Name"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:165
+msgid "Next"
+msgstr ""
+
+#: include/common-functions.php:346 include/common-functions.php:357
+#: elementor/widgets/post-grid.php:180 elementor/widgets/post-grid.php:191
+msgid "No"
+msgstr ""
+
+#: elementor/widgets/templates/banner.php:85
+msgid "No products available"
+msgstr ""
+
+#: include/custom-post.php:19
+msgid "No Projects found"
+msgstr ""
+
+#: include/custom-post.php:20
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: include/widgets/recent-posts.php:121
+msgid "No. of Item of posts to show:"
+msgstr ""
+
+#: include/common-functions.php:18 elementor/widgets/post-grid.php:52
+msgid "None"
+msgstr ""
+
+#: include/common-functions.php:659
+msgid "Normal"
+msgstr ""
+
+#: include/custom-post-type-base.php:141
+msgid "Not Found"
+msgstr ""
+
+#: include/custom-post-type-base.php:57
+msgid "Not found"
+msgstr ""
+
+#: include/custom-post-type-base.php:58
+msgid "Not found in Trash"
+msgstr ""
+
+#: elementor/widgets/team.php:74
+msgid "Number"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:317 elementor/widgets/about-me2.php:376
+#: elementor/widgets/about-tabs.php:128 elementor/widgets/banner-slider.php:158
+#: elementor/widgets/banner-slider.php:218
+#: elementor/widgets/brand-library-tabs.php:117 elementor/widgets/brand.php:159
+#: elementor/widgets/button.php:155 elementor/widgets/button.php:178
+#: elementor/widgets/button.php:248 elementor/widgets/contact-info.php:220
+#: elementor/widgets/countdown.php:123 elementor/widgets/countdown.php:146
+#: elementor/widgets/countdown.php:206 elementor/widgets/experience.php:174
+#: elementor/widgets/experience.php:249 elementor/widgets/experience.php:323
+#: elementor/widgets/experience.php:397 elementor/widgets/experience.php:472
+#: elementor/widgets/icon-box.php:182 elementor/widgets/icon-box.php:242
+#: elementor/widgets/library-tabs.php:119
+#: elementor/widgets/library-tabs.php:132
+#: elementor/widgets/portfolio-grid.php:152
+#: elementor/widgets/portfolio-grid.php:164
+#: elementor/widgets/portfolio-grid.php:176
+#: elementor/widgets/portfolio-grid.php:219 elementor/widgets/post-grid.php:257
+#: elementor/widgets/post-grid.php:270 elementor/widgets/post-grid.php:283
+#: elementor/widgets/post-grid.php:309 elementor/widgets/pricing-table.php:164
+#: elementor/widgets/resume-library-tabs.php:120
+#: elementor/widgets/search.php:93 elementor/widgets/search.php:234
+#: elementor/widgets/social-share.php:137 elementor/widgets/team.php:112
+#: elementor/widgets/team.php:124 elementor/widgets/team.php:135
+#: elementor/widgets/team.php:214 elementor/widgets/team.php:299
+msgid "Off"
+msgstr ""
+
+#: include/common-functions.php:312 elementor/widgets/portfolio-grid.php:116
+#: elementor/widgets/post-grid.php:136
+msgid "Offset"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:316 elementor/widgets/about-me2.php:375
+#: elementor/widgets/about-tabs.php:127 elementor/widgets/banner-slider.php:157
+#: elementor/widgets/banner-slider.php:217
+#: elementor/widgets/brand-library-tabs.php:116 elementor/widgets/brand.php:158
+#: elementor/widgets/button.php:154 elementor/widgets/button.php:177
+#: elementor/widgets/button.php:247 elementor/widgets/contact-info.php:219
+#: elementor/widgets/countdown.php:122 elementor/widgets/countdown.php:145
+#: elementor/widgets/countdown.php:205 elementor/widgets/experience.php:173
+#: elementor/widgets/experience.php:248 elementor/widgets/experience.php:322
+#: elementor/widgets/experience.php:396 elementor/widgets/experience.php:471
+#: elementor/widgets/icon-box.php:181 elementor/widgets/icon-box.php:241
+#: elementor/widgets/library-tabs.php:118
+#: elementor/widgets/library-tabs.php:131
+#: elementor/widgets/portfolio-grid.php:151
+#: elementor/widgets/portfolio-grid.php:163
+#: elementor/widgets/portfolio-grid.php:175
+#: elementor/widgets/portfolio-grid.php:218 elementor/widgets/post-grid.php:256
+#: elementor/widgets/post-grid.php:269 elementor/widgets/post-grid.php:282
+#: elementor/widgets/post-grid.php:308 elementor/widgets/pricing-table.php:163
+#: elementor/widgets/resume-library-tabs.php:119
+#: elementor/widgets/search.php:92 elementor/widgets/search.php:233
+#: elementor/widgets/social-share.php:136 elementor/widgets/team.php:111
+#: elementor/widgets/team.php:123 elementor/widgets/team.php:134
+#: elementor/widgets/team.php:213 elementor/widgets/team.php:298
+msgid "On"
+msgstr ""
+
+#: include/sidebar-generator.php:82
+msgid "Operation failed"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:138
+msgid "Option List"
+msgstr ""
+
+#: elementor/widgets/button.php:274 elementor/widgets/my-resume.php:129
+#: elementor/widgets/pricing-table.php:173
+#: elementor/widgets/pricing-table.php:230
+#: elementor/widgets/pricing-table.php:290
+msgid "option List"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:207
+msgid "Option List Left"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:266
+msgid "Option List Right"
+msgstr ""
+
+#: include/common-functions.php:330 elementor/widgets/portfolio-grid.php:135
+#: elementor/widgets/post-grid.php:164
+msgid "Order"
+msgstr ""
+
+#: include/common-functions.php:320 elementor/widgets/portfolio-grid.php:124
+#: elementor/widgets/post-grid.php:144 elementor/widgets/team.php:93
+msgid "Order By"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:120
+msgid "ORDER NOW"
+msgstr ""
+
+#: include/common-functions.php:596
+msgid "Outline"
+msgstr ""
+
+#: include/common-functions.php:405 include/common-functions.php:467
+#: elementor/widgets/button.php:347 elementor/widgets/experience.php:222
+#: elementor/widgets/experience.php:296 elementor/widgets/experience.php:370
+#: elementor/widgets/experience.php:445 elementor/widgets/experience.php:520
+#: elementor/widgets/my-resume.php:199 elementor/widgets/my-resume.php:260
+#: elementor/widgets/my-resume.php:320 elementor/widgets/my-resume.php:380
+#: elementor/widgets/my-resume.php:441 elementor/widgets/my-resume.php:502
+#: elementor/widgets/post-grid.php:378 elementor/widgets/post-grid.php:438
+#: elementor/widgets/post-grid.php:511 elementor/widgets/post-grid.php:572
+#: elementor/widgets/pricing-table.php:401
+#: elementor/widgets/pricing-table.php:465
+#: elementor/widgets/pricing-table.php:527
+#: elementor/widgets/pricing-table.php:591
+#: elementor/widgets/pricing-table.php:656
+#: elementor/widgets/pricing-table.php:719
+#: elementor/widgets/pricing-table.php:780 elementor/widgets/team.php:274
+#: elementor/widgets/team.php:345
+#: elementor/widgets/testimonial-carousel.php:358
+#: elementor/widgets/testimonial-carousel.php:423
+#: elementor/widgets/testimonial-carousel.php:487
+#: elementor/widgets/testimonial-carousel.php:551
+#: elementor/widgets/testimonial-carousel.php:614
+#: elementor/widgets/testimonial-carousel.php:677
+msgid "Padding"
+msgstr ""
+
+#: include/custom-post-type-base.php:129
+msgid "Parent Item"
+msgstr ""
+
+#: include/custom-post-type-base.php:48 include/custom-post-type-base.php:130
+msgid "Parent Item:"
+msgstr ""
+
+#: include/custom-post.php:45
+msgid "Parent Projects Category"
+msgstr ""
+
+#: include/custom-post.php:46
+msgid "Parent Projects Category:"
+msgstr ""
+
+#: elementor/widgets/about-me.php:219 elementor/widgets/about-me.php:220
+msgid "Paris fan"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:97 elementor/widgets/my-resume.php:136
+msgid "Personal Portfolio April Fools"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:266 elementor/widgets/about-me2.php:267
+#: elementor/widgets/about-me2.php:274 elementor/widgets/contact-info.php:163
+msgid "Phone"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:264 elementor/widgets/contact-info.php:153
+msgid "Phone label"
+msgstr ""
+
+#: include/widgets/about-widget.php:133
+msgid "Phone Label:"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:156 include/widgets/about-widget.php:138
+msgid "Phone:"
+msgstr ""
+
+#: elementor/widgets/progress.php:92 elementor/widgets/progress.php:115
+msgid "PHOTOSHOT."
+msgstr ""
+
+#: elementor/widgets/search.php:80
+msgid "Placeholder"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:217 elementor/widgets/post-grid.php:307
+msgid "Popup Display"
+msgstr ""
+
+#: elementor/widgets/experience.php:56 elementor/widgets/portfolio-grid.php:35
+msgid "Portfolio"
+msgstr ""
+
+#: elementor/widgets/experience.php:65
+msgid "Portfolio Image"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:54
+msgid "Portfolio Query "
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:305
+msgid "Portfolio Style"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:526
+msgid "Post Content"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:293
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:453
+msgid "Post Title"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:244
+msgid "Post Title Length"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:36
+msgid "Poster Banner"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:201
+msgid "Poster Link"
+msgstr ""
+
+#: include/common-functions.php:304 elementor/widgets/portfolio-grid.php:108
+#: elementor/widgets/post-grid.php:128
+msgid "Posts Per Page"
+msgstr ""
+
+#: elementor/widgets/img-carousel.php:161
+msgid "Previous"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:674
+msgid "Prices"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:326
+msgid "Pricing Footer"
+msgstr ""
+
+#: elementor/widgets/library-tabs.php:35
+msgid "Pricing Library Tabs"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:39
+msgid "Pricing Table "
+msgstr ""
+
+#: elementor/widgets/countdown.php:34
+msgid "Product Countdown"
+msgstr ""
+
+#: elementor/widgets/search.php:51
+msgid "Product Search "
+msgstr ""
+
+#: elementor/widgets/search.php:32
+msgid "Product Search Banner"
+msgstr ""
+
+#: elementor/widgets/about-me.php:259
+msgid "Professional Coder."
+msgstr ""
+
+#: elementor/widgets/progress.php:98
+msgid "Progress Bar"
+msgstr ""
+
+#: elementor/widgets/progress.php:36
+msgid "Progress Skill"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:57
+msgid "Project"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:31
+msgid "Project Carousel"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:66
+msgid "Project Image"
+msgstr ""
+
+#: include/custom-post.php:11 include/custom-post.php:12
+msgid "Projects"
+msgstr ""
+
+#: include/custom-post.php:41
+msgctxt "projects categories"
+msgid "Projects Categories"
+msgstr ""
+
+#: include/custom-post.php:51
+msgid "Projects Category"
+msgstr ""
+
+#: include/custom-post.php:42
+msgctxt "projects category"
+msgid "Projects Category"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:162
+msgid "Projects Category Display"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:79 elementor/widgets/team.php:53
+msgid "Query"
+msgstr ""
+
+#: include/common-functions.php:294
+msgid "Quote"
+msgstr ""
+
+#. Name of the plugin
+#: elementor/init.php:45
+msgid "Rainbow Elements"
+msgstr ""
+
+#. Description of the plugin
+msgid "Rainbow Elements Plugin for required Inbio Theme"
+msgstr ""
+
+#: elementor/widgets/list.php:36
+msgid "RainBow List"
+msgstr ""
+
+#. Author of the plugin
+#: elementor/widgets/brand.php:98 elementor/widgets/img-carousel.php:69
+#: elementor/widgets/testimonial-carousel.php:111
+#: elementor/widgets/testimonial-carousel.php:121
+msgid "Rainbow-Themes"
+msgstr ""
+
+#: include/widgets/about-widget.php:14
+msgid "rainbow: Contact Info"
+msgstr ""
+
+#: include/widgets/about-widget.php:18
+msgid "rainbow: Info"
+msgstr ""
+
+#: include/widgets/recent-posts.php:17
+msgid "Rainbow: Recent Post"
+msgstr ""
+
+#: include/widgets/recent-posts.php:13
+msgid "Rainbow: Recent post here"
+msgstr ""
+
+#: include/widgets/social-media.php:11
+msgid "rainbow: Social Media Widget"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:175
+msgid "Rating"
+msgstr ""
+
+#: include/widgets/recent-posts.php:36
+msgid "Recent Posts"
+msgstr ""
+
+#: elementor/widgets/library-tabs.php:129
+#: elementor/widgets/library-tabs.php:143
+msgid "Recommended"
+msgstr ""
+
+#: elementor/widgets/library-tabs.php:141
+msgid "Recommended Text"
+msgstr ""
+
+#: elementor/widgets/experience.php:111
+msgid "Reinvetning the way you create websites"
+msgstr ""
+
+#: include/custom-post-type-base.php:61
+msgid "Remove featured image"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:89
+msgid "Replace Product Image"
+msgstr ""
+
+#: elementor/widgets/team.php:148
+msgid "Responsive Columns"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:187
+#: elementor/widgets/pricing-table.php:244
+msgid "Responsive Design"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:145
+msgid "Resume"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:58
+msgid "Resume Header"
+msgstr ""
+
+#: elementor/widgets/resume-library-tabs.php:35
+msgid "Resume Library Tabs"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:86
+msgid "Resume List"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:66 elementor/widgets/my-resume.php:69
+msgid "Resume Title"
+msgstr ""
+
+#: include/common-functions.php:193 elementor/widgets/button.php:139
+#: elementor/widgets/rb-divider.php:94 elementor/widgets/social-share.php:99
+#: elementor/widgets/social-share.php:123 elementor/widgets/title.php:82
+msgid "Right"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:230
+msgid "Row Gap"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:235
+msgid "row--15"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:234
+msgid "row--20"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:233
+msgid "row--25"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:87
+#: elementor/widgets/brand-library-tabs.php:87
+#: elementor/widgets/library-tabs.php:87
+#: elementor/widgets/resume-library-tabs.php:89
+msgid "Saved Page"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:86
+#: elementor/widgets/brand-library-tabs.php:86
+#: elementor/widgets/library-tabs.php:86
+#: elementor/widgets/resume-library-tabs.php:88
+msgid "Saved Section"
+msgstr ""
+
+#: include/common-functions.php:827
+msgid "Screen width equal to or greater than 576px"
+msgstr ""
+
+#: include/common-functions.php:807
+msgid "Screen width equal to or greater than 768px"
+msgstr ""
+
+#: include/common-functions.php:787
+msgid "Screen width equal to or greater than 992px"
+msgstr ""
+
+#: include/common-functions.php:847
+msgid "Screen width less than 576px"
+msgstr ""
+
+#: elementor/widgets/search.php:103
+msgid "Search Background Images"
+msgstr ""
+
+#: elementor/widgets/search.php:126
+msgid "Search Banner Images"
+msgstr ""
+
+#: include/custom-post-type-base.php:56
+msgid "Search Item"
+msgstr ""
+
+#: include/custom-post.php:18
+msgid "Search Projects"
+msgstr ""
+
+#: include/custom-post.php:43
+msgid "Search Projects Categories"
+msgstr ""
+
+#: include/common-functions.php:129 elementor/widgets/my-resume.php:215
+#: elementor/widgets/title.php:27
+msgid "Section Title"
+msgstr ""
+
+#: elementor/widgets/title.php:46
+msgid "Section Title "
+msgstr ""
+
+#: elementor/widgets/title.php:148
+msgid "Section title here"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:187
+#: elementor/widgets/portfolio-grid.php:188
+msgid "See More"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:185
+msgid "See More button Text"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:174
+msgid "See More Display"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:71
+#: elementor/widgets/brand-library-tabs.php:71
+#: elementor/widgets/library-tabs.php:71
+#: elementor/widgets/resume-library-tabs.php:72
+msgid "Select"
+msgstr ""
+
+#: include/common-functions.php:286
+msgid "Select Post Format"
+msgstr ""
+
+#: include/common-functions.php:267 elementor/widgets/post-grid.php:108
+msgid "Select post manually"
+msgstr ""
+
+#: include/custom-post-type-base.php:136
+msgid "Separate items with commas"
+msgstr ""
+
+#: elementor/widgets/our-services.php:39
+msgid "Services Box"
+msgstr ""
+
+#: elementor/widgets/icon-box.php:34
+msgid "Services Icon Box"
+msgstr ""
+
+#: elementor/widgets/our-services.php:58
+#: elementor/widgets/services-repeater.php:57
+msgid "Services Info"
+msgstr ""
+
+#: elementor/widgets/services-repeater.php:187
+msgid "Services List"
+msgstr ""
+
+#: elementor/widgets/services-repeater.php:38
+msgid "Services Repeater "
+msgstr ""
+
+#: include/custom-post-type-base.php:60
+msgid "Set featured image"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:106
+msgid "Shop Collection"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:129
+#: elementor/widgets/banner-slider.php:133
+msgid "Shop Your 1st <br> New Year’s Fave"
+msgstr ""
+
+#: include/common-functions.php:505 include/common-functions.php:627
+msgid "Show"
+msgstr ""
+
+#: include/common-functions.php:503
+msgid "Show Button"
+msgstr ""
+
+#: include/common-functions.php:354 elementor/widgets/post-grid.php:188
+msgid "Show only sticky posts"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:166 elementor/widgets/post-grid.php:259
+msgid "Show or Hide Category. Default: On"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:285 elementor/widgets/team.php:137
+msgid "Show or Hide Content. Default: On"
+msgstr ""
+
+#: elementor/widgets/team.php:114
+msgid "Show or Hide Designation. Default: On"
+msgstr ""
+
+#: elementor/widgets/post-grid.php:272
+msgid "Show or Hide Meta. Default: On"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:154
+msgid "Show or Hide meta. Default: On"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:221 elementor/widgets/post-grid.php:311
+msgid "Show or Hide Popup . Default: On"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:178
+msgid "Show or Hide See More . Default: On"
+msgstr ""
+
+#: elementor/widgets/team.php:126
+msgid "Show or Hide Social Medias. Default: On"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:165
+msgid "Show Rating"
+msgstr ""
+
+#: include/sidebar-generator.php:142
+msgid "Sidebar ID not found"
+msgstr ""
+
+#: include/sidebar-generator.php:95
+msgid "Sidebar name can't be empty"
+msgstr ""
+
+#: include/sidebar-generator.php:108
+msgid ""
+"Sidebar with the same name already exists. Please choose a different name"
+msgstr ""
+
+#: elementor/widgets/button.php:65 elementor/widgets/button.php:166
+msgid "Single Button"
+msgstr ""
+
+#: elementor/widgets/social-share.php:63
+msgid "Size"
+msgstr ""
+
+#: elementor/widgets/progress.php:55
+msgid "Skill Header"
+msgstr ""
+
+#: elementor/widgets/progress.php:81
+msgid "Skill List"
+msgstr ""
+
+#: elementor/widgets/progress.php:267
+msgid "Skill List "
+msgstr ""
+
+#: elementor/widgets/progress.php:90
+msgid "Skill List Title"
+msgstr ""
+
+#: elementor/widgets/about-me.php:249 elementor/widgets/list.php:94
+#: elementor/widgets/progress.php:108
+msgid "Slide List"
+msgstr ""
+
+#: elementor/widgets/about-me.php:239 elementor/widgets/about-me2.php:121
+#: elementor/widgets/contact-info.php:231 elementor/widgets/list.php:76
+#: elementor/widgets/social-share.php:157
+msgid "Slide List Title"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:124
+msgid "Slider List"
+msgstr ""
+
+#: include/common-functions.php:613 elementor/widgets/button.php:99
+msgid "Small"
+msgstr ""
+
+#: elementor/widgets/social-share.php:56
+msgid "Social"
+msgstr ""
+
+#: elementor/widgets/social-share.php:255
+msgid "Social Icon"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:112 elementor/widgets/about-me2.php:186
+#: elementor/widgets/contact-info.php:197
+#: elementor/widgets/contact-info.php:298
+#: elementor/widgets/social-share.php:148
+#: elementor/widgets/social-share.php:224
+msgid "Social List"
+msgstr ""
+
+#: elementor/widgets/team.php:122
+msgid "Social Media Display"
+msgstr ""
+
+#: elementor/widgets/social-share.php:37
+msgid "Social Share / Skill"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:176 elementor/widgets/contact-info.php:288
+msgid "Social URL"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:206
+msgid "Socials Title"
+msgstr ""
+
+#: elementor/widgets/experience.php:138
+msgid "Software Develop."
+msgstr ""
+
+#: include/common-functions.php:597
+msgid "Solid"
+msgstr ""
+
+#: include/common-functions.php:289
+msgid "Standard"
+msgstr ""
+
+#: elementor/widgets/brand-library-tabs.php:140
+#: elementor/widgets/library-tabs.php:167
+#: elementor/widgets/resume-library-tabs.php:143
+msgid "Standard Feature"
+msgstr ""
+
+#: elementor/widgets/about-tabs.php:109
+#: elementor/widgets/brand-library-tabs.php:108
+#: elementor/widgets/library-tabs.php:109
+#: elementor/widgets/resume-library-tabs.php:111
+msgid "Static"
+msgstr ""
+
+#: elementor/widgets/about-me.php:66 elementor/widgets/brand.php:56
+#: elementor/widgets/button.php:77 elementor/widgets/button.php:230
+#: elementor/widgets/icon-box.php:91 elementor/widgets/our-services.php:109
+#: elementor/widgets/pricing-table.php:66 elementor/widgets/team.php:59
+#: elementor/widgets/testimonial-carousel.php:56
+msgid "Style"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:60
+#: elementor/widgets/poster-banner.php:65
+msgid "Style 1"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:61
+#: elementor/widgets/poster-banner.php:66
+msgid "Style 2"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:67
+msgid "Style 3"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:68
+msgid "Style 4"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:69
+msgid "Style 5"
+msgstr ""
+
+#: elementor/widgets/team.php:63 elementor/widgets/testimonial-carousel.php:60
+#: elementor/widgets/title.php:57
+msgid "Style One"
+msgstr ""
+
+#: elementor/widgets/team.php:65 elementor/widgets/testimonial-carousel.php:62
+msgid "Style Three"
+msgstr ""
+
+#: elementor/widgets/title.php:59
+msgid "Style Three ( sticky )"
+msgstr ""
+
+#: elementor/widgets/team.php:64 elementor/widgets/testimonial-carousel.php:61
+#: elementor/widgets/title.php:58
+msgid "Style Two"
+msgstr ""
+
+#: elementor/widgets/our-services.php:92
+#: elementor/widgets/services-repeater.php:79
+msgid "Sub  Title"
+msgstr ""
+
+#: elementor/widgets/about-me.php:83 elementor/widgets/about-me2.php:74
+#: elementor/widgets/contact-info.php:129 elementor/widgets/countdown.php:71
+#: elementor/widgets/icon-box.php:82 elementor/widgets/my-resume.php:75
+#: elementor/widgets/my-resume.php:103 elementor/widgets/our-services.php:89
+#: elementor/widgets/pricing-table.php:90
+#: elementor/widgets/pricing-table.php:418
+#: elementor/widgets/services-repeater.php:76 elementor/widgets/title.php:206
+msgid "Sub Title"
+msgstr ""
+
+#: elementor/widgets/countdown.php:73 elementor/widgets/countdown.php:74
+#: elementor/widgets/icon-box.php:84 elementor/widgets/icon-box.php:85
+#: elementor/widgets/info-box.php:76 elementor/widgets/info-box.php:77
+#: elementor/widgets/poster-banner.php:120
+#: elementor/widgets/poster-banner.php:121
+msgid "Sub title"
+msgstr ""
+
+#: elementor/widgets/banner-slider.php:147
+msgid "Sub Title or Title Before"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:629
+msgid "Subject Content"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:111
+#: elementor/widgets/testimonial-carousel.php:146
+msgid "Subject Date"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:566
+msgid "Subject Sub Title"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:120
+#: elementor/widgets/testimonial-carousel.php:138
+#: elementor/widgets/testimonial-carousel.php:503
+msgid "Subject Title"
+msgstr ""
+
+#: elementor/widgets/info-box.php:340 elementor/widgets/poster-banner.php:298
+msgid "Subtitle"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:245
+msgid "Subtitle Color"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:306
+msgid "Subtitle Margin"
+msgstr ""
+
+#: elementor/widgets/poster-banner.php:296
+msgid "Subtitle Typography"
+msgstr ""
+
+#: elementor/widgets/team.php:185
+msgid "Tablets: > 767px"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:275
+msgid "Tabs: > 991px"
+msgstr ""
+
+#: elementor/widgets/team.php:27
+msgid "Team Grid"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:73
+#: elementor/widgets/testimonial-carousel.php:226
+msgid "Testimonial"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:31
+msgid "Testimonial Carousel"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:98
+#: elementor/widgets/testimonial-carousel.php:239
+msgid "Testimonial Image"
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:87
+msgid "Testimonial List"
+msgstr ""
+
+#: elementor/widgets/brand.php:148
+msgid "Testimonial Title"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:334
+msgid "Text 1"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:342
+msgid "Text 2"
+msgstr ""
+
+#: elementor/widgets/button.php:127 elementor/widgets/title.php:70
+msgid "Text Alignment"
+msgstr ""
+
+#: include/common-functions.php:664 include/common-functions.php:724
+msgid "Text Color"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:122
+msgid ""
+"The education should be very interactual. Ut tincidunt est ac dolor aliquam "
+"sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris "
+"hendrerit ante."
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:88
+msgid "The services provice for Design"
+msgstr ""
+
+#: elementor/widgets/templates/project-carousel-1.php:55
+msgid "thumbnail"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:142
+msgid "Tips For Personal Portfolio"
+msgstr ""
+
+#: include/common-functions.php:135 elementor/widgets/about-me.php:322
+#: elementor/widgets/about-me2.php:305 elementor/widgets/banner-slider.php:71
+#: elementor/widgets/banner-slider.php:207 elementor/widgets/brand.php:96
+#: elementor/widgets/contact-info.php:118 elementor/widgets/countdown.php:60
+#: elementor/widgets/countdown.php:62 elementor/widgets/countdown.php:63
+#: elementor/widgets/countdown.php:195 elementor/widgets/experience.php:93
+#: elementor/widgets/experience.php:238 elementor/widgets/icon-box.php:73
+#: elementor/widgets/icon-box.php:75 elementor/widgets/icon-box.php:76
+#: elementor/widgets/icon-box.php:171 elementor/widgets/img-carousel.php:67
+#: elementor/widgets/info-box.php:84 elementor/widgets/info-box.php:87
+#: elementor/widgets/login-img-map.php:70 elementor/widgets/my-resume.php:95
+#: elementor/widgets/our-services.php:82 elementor/widgets/our-services.php:218
+#: elementor/widgets/poster-banner.php:109
+#: elementor/widgets/poster-banner.php:112
+#: elementor/widgets/pricing-table.php:81
+#: elementor/widgets/pricing-table.php:84
+#: elementor/widgets/pricing-table.php:279
+#: elementor/widgets/pricing-table.php:354 elementor/widgets/progress.php:70
+#: elementor/widgets/progress.php:204 elementor/widgets/project-carousel.php:86
+#: elementor/widgets/project-carousel.php:145 elementor/widgets/search.php:70
+#: elementor/widgets/search.php:223 elementor/widgets/services-repeater.php:66
+#: elementor/widgets/services-repeater.php:69
+#: elementor/widgets/services-repeater.php:269
+#: elementor/widgets/social-share.php:77 elementor/widgets/team.php:97
+#: elementor/widgets/team.php:203 elementor/widgets/testimonial-carousel.php:70
+#: elementor/widgets/testimonial-carousel.php:119
+#: elementor/widgets/testimonial-carousel.php:251
+#: elementor/widgets/title.php:145 elementor/widgets/title.php:157
+msgid "Title"
+msgstr ""
+
+#: elementor/widgets/social-share.php:87
+msgid "Title Alignment"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:155 elementor/widgets/progress.php:61
+#: elementor/widgets/progress.php:143 elementor/widgets/title.php:134
+msgid "Title Before"
+msgstr ""
+
+#: elementor/widgets/about-me.php:275
+msgid "Title Beore"
+msgstr ""
+
+#: elementor/widgets/info-box.php:209 elementor/widgets/portfolio-grid.php:314
+#: elementor/widgets/poster-banner.php:229
+msgid "Title Color"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:326
+msgid "Title Hover Color"
+msgstr ""
+
+#: include/common-functions.php:145 elementor/widgets/title.php:95
+msgid "Title HTML Tag"
+msgstr ""
+
+#: elementor/widgets/info-box.php:322 elementor/widgets/poster-banner.php:280
+msgid "Title Margin"
+msgstr ""
+
+#: elementor/widgets/info-box.php:313 elementor/widgets/poster-banner.php:261
+#: elementor/widgets/poster-banner.php:271
+msgid "Title Typography"
+msgstr ""
+
+#: include/widgets/recent-posts.php:126
+msgid "Title Word"
+msgstr ""
+
+#: include/widgets/about-widget.php:129 include/widgets/recent-posts.php:116
+#: include/widgets/social-media.php:112
+msgid "Title:"
+msgstr ""
+
+#: elementor/widgets/social-share.php:235
+msgid "Twitter"
+msgstr ""
+
+#: elementor/widgets/about-me2.php:197 elementor/widgets/contact-info.php:309
+msgid "twitter"
+msgstr ""
+
+#: include/widgets/social-media.php:120
+msgid "Twitter Link:"
+msgstr ""
+
+#: elementor/widgets/button.php:61
+msgid "Type"
+msgstr ""
+
+#: include/common-functions.php:138 elementor/widgets/pricing-table.php:153
+#: elementor/widgets/pricing-table.php:222
+#: elementor/widgets/pricing-table.php:282
+msgid "Type Heading Text"
+msgstr ""
+
+#: elementor/widgets/contact-info.php:131
+#: elementor/widgets/contact-info.php:143 elementor/widgets/title.php:136
+msgid "Type your Description here."
+msgstr ""
+
+#: elementor/widgets/contact-info.php:175
+#: elementor/widgets/contact-info.php:185
+msgid "Type your Email here..."
+msgstr ""
+
+#: elementor/widgets/contact-info.php:155
+#: elementor/widgets/contact-info.php:165
+msgid "Type your Phone here..."
+msgstr ""
+
+#: elementor/widgets/contact-info.php:120 elementor/widgets/search.php:72
+#: elementor/widgets/search.php:82
+#: elementor/widgets/testimonial-carousel.php:72
+#: elementor/widgets/title.php:147
+msgid "Type your title here..."
+msgstr ""
+
+#: include/common-functions.php:397 elementor/widgets/about-me.php:298
+#: elementor/widgets/about-me.php:361 elementor/widgets/about-me.php:411
+#: elementor/widgets/about-me2.php:339 elementor/widgets/about-me2.php:400
+#: elementor/widgets/banner-slider.php:182
+#: elementor/widgets/banner-slider.php:242 elementor/widgets/brand.php:183
+#: elementor/widgets/countdown.php:170 elementor/widgets/countdown.php:230
+#: elementor/widgets/experience.php:199 elementor/widgets/experience.php:273
+#: elementor/widgets/experience.php:347 elementor/widgets/experience.php:421
+#: elementor/widgets/experience.php:496 elementor/widgets/icon-box.php:206
+#: elementor/widgets/icon-box.php:266 elementor/widgets/info-box.php:303
+#: elementor/widgets/list.php:164 elementor/widgets/my-resume.php:177
+#: elementor/widgets/my-resume.php:237 elementor/widgets/my-resume.php:297
+#: elementor/widgets/my-resume.php:357 elementor/widgets/my-resume.php:418
+#: elementor/widgets/my-resume.php:479 elementor/widgets/our-services.php:193
+#: elementor/widgets/our-services.php:252
+#: elementor/widgets/our-services.php:301
+#: elementor/widgets/our-services.php:352
+#: elementor/widgets/portfolio-grid.php:340
+#: elementor/widgets/portfolio-grid.php:383
+#: elementor/widgets/portfolio-grid.php:430 elementor/widgets/post-grid.php:355
+#: elementor/widgets/post-grid.php:415 elementor/widgets/post-grid.php:488
+#: elementor/widgets/post-grid.php:549 elementor/widgets/pricing-table.php:377
+#: elementor/widgets/pricing-table.php:441
+#: elementor/widgets/pricing-table.php:504
+#: elementor/widgets/pricing-table.php:567
+#: elementor/widgets/pricing-table.php:631
+#: elementor/widgets/pricing-table.php:697
+#: elementor/widgets/pricing-table.php:758 elementor/widgets/progress.php:166
+#: elementor/widgets/progress.php:228 elementor/widgets/progress.php:292
+#: elementor/widgets/project-carousel.php:168
+#: elementor/widgets/project-carousel.php:219 elementor/widgets/search.php:258
+#: elementor/widgets/services-repeater.php:244
+#: elementor/widgets/services-repeater.php:303
+#: elementor/widgets/services-repeater.php:352
+#: elementor/widgets/social-share.php:278 elementor/widgets/team.php:252
+#: elementor/widgets/team.php:323
+#: elementor/widgets/testimonial-carousel.php:336
+#: elementor/widgets/testimonial-carousel.php:398
+#: elementor/widgets/testimonial-carousel.php:463
+#: elementor/widgets/testimonial-carousel.php:528
+#: elementor/widgets/testimonial-carousel.php:591
+#: elementor/widgets/testimonial-carousel.php:653
+#: elementor/widgets/title.php:180 elementor/widgets/title.php:229
+msgid "Typography"
+msgstr ""
+
+#: elementor/widgets/button.php:83 elementor/widgets/button.php:235
+msgid "Ulderline Button"
+msgstr ""
+
+#: elementor/widgets/my-resume.php:105
+msgid "University of DVI (1997 - 2001))"
+msgstr ""
+
+#: elementor/widgets/pricing-table.php:344
+msgid "Unlimited Revission"
+msgstr ""
+
+#: include/custom-post-type-base.php:54
+msgid "Update Item"
+msgstr ""
+
+#: include/custom-post.php:48
+msgid "Update Projects Category"
+msgstr ""
+
+#: include/custom-post-type-base.php:64
+msgid "Uploaded to this item"
+msgstr ""
+
+#: elementor/widgets/countdown.php:96
+msgid "URL"
+msgstr ""
+
+#: include/custom-post-type-base.php:62
+msgid "Use as featured image"
+msgstr ""
+
+#: elementor/widgets/project-carousel.php:105
+#: elementor/widgets/testimonial-carousel.php:157
+#: elementor/widgets/testimonial-carousel.php:271
+msgid "Very good Design. Flexible. Fast Support."
+msgstr ""
+
+#: elementor/widgets/testimonial-carousel.php:148
+msgid "via Upwork - Mar 4, 2015 - Aug 30, 2021"
+msgstr ""
+
+#: include/common-functions.php:291
+msgid "Video"
+msgstr ""
+
+#: elementor/widgets/video-popup.php:29
+msgid "Video Popup"
+msgstr ""
+
+#: elementor/widgets/image-holder.php:90 elementor/widgets/video-popup.php:76
+msgid "Video Popup URL"
+msgstr ""
+
+#: include/custom-post-type-base.php:55
+msgid "View Item"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:241
+msgid "VIEW PROJECT"
+msgstr ""
+
+#: include/custom-post.php:17
+msgid "View Projects"
+msgstr ""
+
+#: elementor/widgets/experience.php:143
+msgid "Web Design. "
+msgstr ""
+
+#: elementor/widgets/about-me.php:199 elementor/widgets/about-me.php:200
+#: elementor/widgets/about-me2.php:258
+msgid "Web designer & developer"
+msgstr ""
+
+#: elementor/widgets/about-me.php:85 elementor/widgets/about-me2.php:76
+msgid "Welcome to my world"
+msgstr ""
+
+#: elementor/widgets/title.php:138
+msgid "Why Choose Us"
+msgstr ""
+
+#: elementor/widgets/rb-divider.php:55
+msgid "Width"
+msgstr ""
+
+#: elementor/widgets/portfolio-grid.php:349
+#: elementor/widgets/portfolio-grid.php:395 elementor/widgets/team.php:77
+msgid "Write -1 to show all"
+msgstr ""
+
+#: include/common-functions.php:345 include/common-functions.php:356
+#: elementor/widgets/post-grid.php:179 elementor/widgets/post-grid.php:190
+msgid "Yes"
+msgstr ""
+
+#: include/widgets/social-media.php:133
+msgid "Youtube Link:"
+msgstr ""
