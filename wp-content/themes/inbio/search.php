@@ -2,65 +2,124 @@
 /**
  * The template for displaying search results pages
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package inbio
+ * @package Art Blog
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly.
-}
-
 get_header();
-
-$rainbow_options = Rainbow_Helper::rainbow_get_options();
-$rainbow_blog_sidebar_class = ($rainbow_options['rainbow_blog_sidebar'] === 'no') || !is_active_sidebar('sidebar-1') ? 'col-lg-12 inbio-post-wrapper' : 'col-lg-8 inbio-post-wrapper';
 ?>
-<!-- Start search Area  -->
-<div class="rainbow-blog-area rn-section-gap">
-    <div class="container">
-        <div class="row row--40">
-            <?php if (is_active_sidebar('sidebar-1') && $rainbow_options['rainbow_blog_sidebar'] == 'left') { ?>
-                <div class="col-lg-4 col-xl-4">
-                    <aside class="rainbow-sidebar-area">
-                        <?php dynamic_sidebar(); ?>
-                    </aside>
-                </div>
-            <?php } ?>
-            <div class="<?php echo esc_attr($rainbow_blog_sidebar_class); ?>">
-                <?php
-                if (have_posts()) :
 
-                    /* Start the Loop */
-                    while (have_posts()) :
-                        the_post();
-
-                        /*
-                            * Include the Post-Format-specific template for the content.
-                            * If you want to override this in a child theme, then include a file
-                            * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-                            */
-                        get_template_part('template-parts/post/content', get_post_format());
-
-                    endwhile;
-                    rainbow_blog_pagination();
-
-                else :
-                    get_template_part('template-parts/content', 'none');
-
-                endif;
-                ?>
-            </div>
-            <?php if (is_active_sidebar('sidebar-1') && $rainbow_options['rainbow_blog_sidebar'] == 'right') { ?>
-                <div class="col-lg-4 col-xl-4">
-                    <aside class="rainbow-sidebar-area">
-                        <?php dynamic_sidebar(); ?>
-                    </aside>
-                </div>
-            <?php } ?>
-        </div>
-    </div>
-</div>
-<!-- End Search Area  -->
 <?php
-get_footer();
+$art_blog_archive_layout = get_theme_mod( 'art_blog_archive_layout', 'layout-1' ); 
+?> 
+
+<div class="container">
+	<?php if ( $art_blog_archive_layout == 'layout-1' ) { ?>
+		<div class="main-wrapper">
+			<main id="primary" class="site-main ct-post-wrapper lay-width">
+
+				<?php if ( have_posts() ) : ?>
+
+					<header class="page-header">
+						<h1 class="page-title">
+							<?php
+							/* translators: %s: search query. */
+							printf( esc_html__( 'Search Results for: %s', 'art-blog' ), '<span>' . get_search_query() . '</span>' );
+							?>
+						</h1>
+					</header>
+
+					<?php
+					/* Start the Loop */
+					while ( have_posts() ) :
+						the_post();
+
+						get_template_part( 'revolution/template-parts/content', get_post_format() );
+
+					endwhile;
+
+					the_posts_navigation();
+
+				else :
+
+					get_template_part( 'revolution/template-parts/content', 'none' );
+
+				endif;
+				?>
+			</main>
+			<?php get_sidebar(); ?>
+		</div>
+	<?php 
+	} elseif ( $art_blog_archive_layout == 'layout-2' ) { ?>
+		<div class="main-wrapper">
+			<?php get_sidebar(); ?>
+			<main id="primary" class="site-main ct-post-wrapper lay-width">
+
+				<?php if ( have_posts() ) : ?>
+
+					<header class="page-header">
+						<h1 class="page-title">
+							<?php
+							/* translators: %s: search query. */
+							printf( esc_html__( 'Search Results for: %s', 'art-blog' ), '<span>' . get_search_query() . '</span>' );
+							?>
+						</h1>
+					</header>
+
+					<?php
+					/* Start the Loop */
+					while ( have_posts() ) :
+						the_post();
+
+						get_template_part( 'revolution/template-parts/content', get_post_format() );
+
+					endwhile;
+
+					the_posts_navigation();
+
+				else :
+
+					get_template_part( 'revolution/template-parts/content', 'none' );
+
+				endif;
+				?>
+			</main>
+		</div>
+	<?php 
+	} elseif ( $art_blog_archive_layout == 'layout-3' ) { // No-sidebar layout ?>
+		<div class="main-wrapper full-width">
+			<main id="primary" class="site-main ct-post-wrapper lay-width">
+
+				<?php if ( have_posts() ) : ?>
+
+					<header class="page-header">
+						<h1 class="page-title">
+							<?php
+							/* translators: %s: search query. */
+							printf( esc_html__( 'Search Results for: %s', 'art-blog' ), '<span>' . get_search_query() . '</span>' );
+							?>
+						</h1>
+					</header>
+
+					<?php
+					/* Start the Loop */
+					while ( have_posts() ) :
+						the_post();
+
+						get_template_part( 'revolution/template-parts/content', get_post_format() );
+
+					endwhile;
+
+					the_posts_navigation();
+
+				else :
+
+					get_template_part( 'revolution/template-parts/content', 'none' );
+
+				endif;
+				?>
+			</main>
+		</div>
+	<?php } ?>
+</div>
+
+<?php get_footer(); ?>

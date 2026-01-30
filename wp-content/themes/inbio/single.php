@@ -2,49 +2,120 @@
 /**
  * The template for displaying all single posts
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package inbio
+ * @package Art Blog
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // Exit if accessed directly.
-}
-
 get_header();
-
-$rainbow_options = Rainbow_Helper::rainbow_get_options();
-$rainbow_blog_sidebar_class = ($rainbow_options['rainbow_single_pos'] === 'full') || !is_active_sidebar('sidebar-1') ? 'col-lg-12 rainbow-post-wrapper' : 'col-lg-8 rainbow-post-wrapper';
 ?>
-<!-- Start Blog Area  -->
-<div class="rainbow-blog-area rn-section-gap">
-    <div class="container">
-        <div class="row row--40">
-            <?php if (is_active_sidebar('sidebar-1') && $rainbow_options['rainbow_single_pos'] == 'left') { ?>
-                <div class="col-lg-4 col-xl-4">
-                    <aside class="rainbow-sidebar-area">
-                        <?php dynamic_sidebar(); ?>
-                    </aside>
-                </div>
-            <?php } ?>
-            <div class="<?php echo esc_attr($rainbow_blog_sidebar_class); ?>">
-                <?php
-                while (have_posts()) :
-                    the_post();
-                    get_template_part('template-parts/content-single', get_post_type());
-                endwhile; // End of the loop.
-                ?>
-            </div>
-            <?php if (is_active_sidebar('sidebar-1') && $rainbow_options['rainbow_single_pos'] == 'right') { ?>
-                <div class="col-lg-4 col-xl-4">
-                    <aside class="rainbow-sidebar-area"> 
-                        <?php dynamic_sidebar(); ?> 
-                    </aside>
-                </div>
-            <?php } ?>
-        </div>
-    </div>
+
+<div class="container">
+	<?php
+	$art_blog_post_layout = get_theme_mod( 'art_blog_post_layout', 'layout-1' );
+
+	if ( $art_blog_post_layout == 'layout-1' ) {
+		?>
+	<div class="main-wrapper">
+		<main id="primary" class="site-main lay-width">
+		
+			<?php
+			while ( have_posts() ) :
+				the_post();
+
+				get_template_part( 'revolution/template-parts/content', get_post_format() );
+
+				the_post_navigation(
+					array(
+						'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'art-blog' ) . '</span> <span class="nav-title">%title</span>',
+						'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'art-blog' ) . '</span> <span class="nav-title">%title</span>',
+					)
+				);
+				?>
+
+				<?php 
+				do_action('art_blog_related_posts');
+				?>
+				
+				<?php
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+
+			endwhile;
+			?>
+		</main>
+
+		<?php get_sidebar(); ?>
+	</div>
+
+	<?php
+	} elseif ( $art_blog_post_layout == 'layout-2' ) {
+		?>
+	<div class="main-wrapper">
+		<?php get_sidebar(); ?>
+
+		<main id="primary" class="site-main lay-width">
+		
+			<?php
+			while ( have_posts() ) :
+				the_post();
+
+				get_template_part( 'revolution/template-parts/content', get_post_format() );
+
+				the_post_navigation(
+					array(
+						'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'art-blog' ) . '</span> <span class="nav-title">%title</span>',
+						'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'art-blog' ) . '</span> <span class="nav-title">%title</span>',
+					)
+				);
+				?>
+
+				<?php 
+				do_action('art_blog_related_posts');
+				?>
+				
+				<?php
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+
+			endwhile;
+			?>
+		</main>
+	</div>
+	<?php 
+	} elseif ( $art_blog_post_layout == 'layout-3' ) { // No-sidebar layout
+	?>
+	<div class="main-wrapper full-width">
+		<main id="primary" class="site-main lay-width">
+		
+			<?php
+			while ( have_posts() ) :
+				the_post();
+
+				get_template_part( 'revolution/template-parts/content', get_post_format() );
+
+				the_post_navigation(
+					array(
+						'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'art-blog' ) . '</span> <span class="nav-title">%title</span>',
+						'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'art-blog' ) . '</span> <span class="nav-title">%title</span>',
+					)
+				);
+				?>
+
+				<?php 
+				do_action('art_blog_related_posts');
+				?>
+				
+				<?php
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+
+			endwhile;
+			?>
+		</main>
+	</div>
+	<?php } ?>
 </div>
-<!-- End Blog Area  -->
-<?php
-get_footer();
+
+<?php get_footer(); ?>
